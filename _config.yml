@@ -17,8 +17,8 @@ title:            Steven Ripplinger
 tagline:          'writings & other projects'
 description:      'writings & other projects'
 url:              "https://sripplin.github.io/webpage"
-baseurl:          
-imageurl:       '/assets/images/'
+baseurl:          /
+imageurl:         '/assets/images/'
 
 author:
   name:           'Steven Ripplinger'
