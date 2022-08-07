@@ -16,8 +16,8 @@ permalink:        /:year/:month/:day/:title/
 title:            Steven Ripplinger
 tagline:          'writings & other projects'
 description:      'writings & other projects'
-url:              "https://sripplin.github.io"
-baseurl:          "/website"
+url:              'https://sripplin.github.io/website'
+baseurl:          '/'
 imageurl:         '/assets/images/'
 
 author:
