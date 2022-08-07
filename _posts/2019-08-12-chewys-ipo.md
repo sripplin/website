@@ -10,7 +10,7 @@ image:
 
 <!--more-->
 
-​**Key insights:**
+### Key insights:
 
 **Customer acquisition likely peaked in 2018**, despite increasing marketing spend as Chewy hits the inflection point with new customer acquisition decelerating going forward.
 - **Chewy loses approximately 40% of new customers after one year**, stabilizing thereafter.
@@ -18,6 +18,12 @@ image:
 - **Customer Acquisition Costs (“CAC”) of $65 in 2018 and Post-Acquisition Value (“PAV”) of approximately $300 per customer acquired.**
 - Profitable customer economics: **36% IRR, 4-year payback, and PAV/CAC of 4.5x for new customers in 2018.**
 - **A customer-based valuation of $3.7 billion, 74% lower than Chewy’s current market value of $14.3 billion.** The valuation result is driven by insufficient contribution margin from Chewy’s current and future customers to offset fixed costs and drive meaningful profit on an NPV-basis.
+
+## Contents
+
+- [Contents](#contents)
+- [The Data](#the-data)
+
 
 ## The Data
 

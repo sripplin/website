@@ -3,16 +3,35 @@ layout: post
 title: "Unity's IPO: What are the customer analytics of a game engine?"
 subtitle: 
 category: customer_analytics
-image: 
+image:
+imageroot: unitys_ipo/ 
 ---
 
 Unity Software Inc. recently filed its S-1 in advance of going public. Unity is the maker of a real-time 3D game engine that powers many 3D games and other content across numerous sectors. In this post, I focus on an under-discussed part of its IPO disclosure: its customer analytics.
 
 <!--more-->
 
+## Contents
+
+- [Contents](#contents)
+- [A customer-cohort-chart, sort of](#a-customer-cohort-chart-sort-of)
+- [Filling in the gaps](#filling-in-the-gaps)
+- [Insights:](#insights)
+  - [1) A customer base with long lifetimes](#1-a-customer-base-with-long-lifetimes)
+  - [2) Growing customer cohort revenue over time](#2-growing-customer-cohort-revenue-over-time)
+  - [3) Healthy Net Revenue Retention on both cohort and corporate level](#3-healthy-net-revenue-retention-on-both-cohort-and-corporate-level)
+  - [5) Large customers comprise most of Unity's revenue](#5-large-customers-comprise-most-of-unitys-revenue)
+  - [5) Customer acquisition costs of $1.2 million in 2018 and $1.6 million in 2019](#5-customer-acquisition-costs-of-12-million-in-2018-and-16-million-in-2019)
+  - [6) Customer payback period for $100,000 customers of 3-4 years](#6-customer-payback-period-for-100000-customers-of-3-4-years)
+- [Conclusions](#conclusions)
+
 ## A customer-cohort-chart, sort of
 
 In its S-1, Unity discloses a customer-cohort-chart (C3):
+
+<center>
+<img src="{{ site.imageurl }}{{ page.imageroot }}pkm.png" style="width:80%;"/>
+</center>
 
 ![Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled.png](Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled.png)
 
