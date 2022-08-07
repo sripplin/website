@@ -14,10 +14,10 @@ permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            Steven Ripplinger
-tagline:          'A Jekyll theme'
+tagline:          'writings & other projects'
 description:      'writings & other projects'
-url:              ""
-baseurl:          https://sripplin.github.io/website/
+url:              "https://sripplin.github.io/webpage"
+baseurl:          
 imageurl:       '/assets/images/'
 
 author:
