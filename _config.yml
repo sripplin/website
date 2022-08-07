@@ -1,0 +1,46 @@
+# Dependencies
+plugins: [jekyll-paginate]
+
+# Features
+excerpt_separator: <!--more-->
+categories: "investing|finace|technology|data|musings|life"
+
+# Permalinks
+permalink:        /:year/:month/:day/:title/
+
+# Permalinks
+#permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Steven Ripplinger
+tagline:          'A Jekyll theme'
+description:      'writings & other projects'
+url:              ""
+baseurl:          /
+imageurl:       '/assets/images/'
+
+author:
+  name:           'Steven Ripplinger'
+  url:            https://www.linkedin.com/in/steve-ripplinger/
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:           
+  repo:           https://github.com/sripplin
+
+
+social:
+    linkedin: https://www.linkedin.com/in/steve-ripplinger/
+    twitter: https://twitter.com/steveripplinger
+
+# Structure
+paginate:         10
+
+collections:
+  notes:
+      output: true
+      permalink: /notes/:path/
