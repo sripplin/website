@@ -4,9 +4,11 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <div>
-    <h6 class="post-subtitle">{{ page.subtitle }}</h6>
-  </div>
+  {%- if page.subtitle -%}
+    <div>
+      <h6 class="post-subtitle">{{ page.subtitle }}</h6>
+    </div>
+  {%- endif -%}
   <div>
     <p style="margin:.7em;"></p>
     {% include post_date_read_time.html %}
