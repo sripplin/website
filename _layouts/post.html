@@ -5,9 +5,13 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div>
+    <h6 class="post-subtitle">{{ page.subtitle }}</h6>
+  </div>
+  <div>
+    <p style="margin:.7em;"></p>
     {% include post_date_read_time.html %}
-    &emsp;
-     <span style="display:inline">[
+    &emsp; 
+    <span style="display:inline" class="post-date" title="Estimated read time">[
          {% capture category_name %}{{ page.category }}{% endcapture %}
          <a href="/category/{{ category_name }}">{{ category_name }}</a>
      ]</span>

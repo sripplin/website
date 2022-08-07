@@ -79,7 +79,9 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
+  margin-bottom: 0.3rem;
   font-family: "Domine", serif;
+  line-height: 1.25;
   font-size: 2rem;
 }
 

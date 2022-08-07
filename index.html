@@ -19,9 +19,16 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-        
+    
+    <div>
+      <h6 class="post-subtitle">
+          {{post.subtitle}}
+      </h6>
+    </div>
+            
     <!-- Metadata -->
     <div>
+      <p style="margin:.7em;"></p>
       <span style="display: inline" class="post-date" title="Estimated read time">
           {{ post.date | date_to_string }} &middot; 
            {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
