@@ -17,7 +17,7 @@ title:            Steven Ripplinger
 tagline:          'A Jekyll theme'
 description:      'writings & other projects'
 url:              ""
-baseurl:          https://sripplin.github.io/website
+baseurl:          https://sripplin.github.io/website/
 imageurl:       '/assets/images/'
 
 author:
