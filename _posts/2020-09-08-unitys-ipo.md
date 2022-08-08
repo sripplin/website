@@ -30,11 +30,12 @@ Unity Software Inc. recently filed its S-1 in advance of going public. Unity is 
 
 In its S-1, Unity discloses a customer-cohort-chart (C3):
 
-<center>
-<img src="{{ site.imageurl }}{{ page.imageroot }}pkm.png" style="width:80%;"/>
-</center>
-
-![Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled.png](Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled.png)
+<div class="images">
+  <center>
+  <img src="{{ site.imageurl }}{{ page.imageroot }}c3_reported.png" style="width:80%;"/>
+  <p>source: Unity Software S-1 Filing</p>
+  </center>
+</div>
 
 These charts, as discussed in my Chewy IPO analysis, are amazing as they reveal so much about a company's customer acquisition, retention, and spend. 
 
@@ -46,13 +47,22 @@ At first glance, this chart looks pretty good: cohort revenue is increasing over
 
 Let's fix that. Given that Unity discloses two data points for the 2018 cohort, we can populate the entire chart with very close approximations based on pixel length:
 
-![Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled%201.png](Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled%201.png)
+<div class="images">
+  <center>
+  <img src="{{ site.imageurl }}{{ page.imageroot }}c3_with_numbers.png" style="width:80%;"/>
+  </center>
+</div>
 
 Now, since we know the numbers for the above chart, we should be able to calculate the pre-2016 cohort revenue by subtracting 2016-2019 cohort revenue from the total annual revenue disclosed elsewhere. 
 
 Unfortunately, we run into another problem with Unity's disclosure: despite being around since 2004, there is no pre-2018 annual revenue disclosed!
 
-![Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled%202.png](Unity's%20IPO%20What%20are%20the%20customer%20analytics%20of%20a%20g%20a8777997f6eb4305863ce46192a218bb/Untitled%202.png)
+<div class="images">
+  <center>
+  <img src="{{ site.imageurl }}{{ page.imageroot }}revenue.png" style="width:80%;"/>
+  <p>That's a lot of question marks</p>
+  </center>
+</div>
 
 The reason for the lack of disclosure is because Unity elected to be classified as an "Emerging Growth Company", which allows it to disclose a minimum of just two years of financial reporting versus the typical five years, along with [other significant benefits](https://www.sec.gov/smallbusiness/goingpublic/EGC).
 
