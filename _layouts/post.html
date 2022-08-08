@@ -6,7 +6,9 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   {%- if page.subtitle -%}
     <div>
-      <h6 class="post-subtitle">{{ page.subtitle }}</h6>
+      <span class="post-subtitle" title="Subtitle">
+        {{page.subtitle}}
+      </span>
     </div>
   {%- endif -%}
   <div>
@@ -22,7 +24,11 @@ layout: default
   {{ content }}
 </div>
 
-
+{%if page.postdisclaimer == true%}
+<div>
+  {% include postdisclaimer.html %}
+</div>
+{%endif%}
 
 <div class="related">
   <h3>Related Posts</h3>

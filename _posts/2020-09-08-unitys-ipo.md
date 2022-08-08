@@ -4,7 +4,8 @@ title: "Unity's IPO: What are the customer analytics of a game engine?"
 subtitle: 
 category: customer_analytics
 image:
-imageroot: unitys_ipo/ 
+imageroot: unitys_ipo/
+postdisclaimer: true
 ---
 
 Unity Software Inc. recently filed its S-1 in advance of going public. Unity is the maker of a real-time 3D game engine that powers many 3D games and other content across numerous sectors. In this post, I focus on an under-discussed part of its IPO disclosure: its customer analytics.
@@ -20,7 +21,7 @@ Unity Software Inc. recently filed its S-1 in advance of going public. Unity is 
   - [1) A customer base with long lifetimes](#1-a-customer-base-with-long-lifetimes)
   - [2) Growing customer cohort revenue over time](#2-growing-customer-cohort-revenue-over-time)
   - [3) Healthy Net Revenue Retention on both cohort and corporate level](#3-healthy-net-revenue-retention-on-both-cohort-and-corporate-level)
-  - [5) Large customers comprise most of Unity's revenue](#5-large-customers-comprise-most-of-unitys-revenue)
+  - [4) Large customers comprise most of Unity's revenue](#4-large-customers-comprise-most-of-unitys-revenue)
   - [5) Customer acquisition costs of $1.2 million in 2018 and $1.6 million in 2019](#5-customer-acquisition-costs-of-12-million-in-2018-and-16-million-in-2019)
   - [6) Customer payback period for $100,000 customers of 3-4 years](#6-customer-payback-period-for-100000-customers-of-3-4-years)
 - [Conclusions](#conclusions)
@@ -99,7 +100,7 @@ For perspective, 133% net dollar retention is fantastic and puts Unity near the 
 
 [Source](https://medium.com/iconiq-capital/full-disclosure-the-importance-of-business-fundamentals-1b77361c303)
 
-### 5) Large customers comprise most of Unity's revenue
+### 4) Large customers comprise most of Unity's revenue
 
 For the rest of the post, we will focus on Unity's >$100,000 customers, as Unity uses this as a cut-off for some of its disclosures, including these two charts:
 
