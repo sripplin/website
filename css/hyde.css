@@ -151,6 +151,17 @@ a.sidebar-nav-item:focus {
   object-fit: cover;
 }
 
+.images p {
+  position: relative;
+  display: block;
+  text-align: center;
+  top: -0.5rem;
+  bottom: 0;
+  font-size: 0.9rem;
+  color: #6e6e6f;
+}
+
+
 /* Themes */
 
 /* Custom - Blue */
