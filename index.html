@@ -7,11 +7,11 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
 
-    {%- if post.image -%}
-      <img src="{{site.imageurl}}{{post.image }}" alt="" class="featured-image-post">
+    {%- if post.image_featured -%}
+      <img src="{{ site.imageurl }}{{ post.image_root }}{{ post.image_featured }}" alt="" class="featured-image-post">
     {%else%}
       {%assign postImage = 'defaultimage.png'%}
-      <img src="{{site.imageurl}}{{postImage }}" alt="" class="featured-image-post">
+      <img src="{{ site.imageurl }}{{ postImage }}" alt="" class="featured-image-post">
     {%- endif -%}
     
     <h1 class="post-title">

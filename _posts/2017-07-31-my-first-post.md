@@ -3,7 +3,7 @@ layout: post
 title:  "My first post"
 subtitle: "my first post is about posts"
 category: investing
-image: post1/airport1size.png
+image_featured: post1/airport1size.png
 ---
 
 Welcome to my first post

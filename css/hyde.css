@@ -147,6 +147,7 @@ a.sidebar-nav-item:focus {
 /* Custom */
 .featured-image-post {
   width: 300px;
+  max-width: 80%;
   height: 150px;
   object-fit: cover;
 }
@@ -161,7 +162,6 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
-
 /* Themes */
 
 /* Custom - Blue */
@@ -171,7 +171,7 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .content a,
 .theme-base-blue h1, h2, h3, h4, h5, h6,
 .theme-base-blue .related-posts li a:hover {
-  color: #184a99;
+  color: #0f3573;
 }
 
 /* Custom - test */
