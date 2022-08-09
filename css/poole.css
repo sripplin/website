@@ -215,7 +215,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #152a59;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -331,7 +331,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
@@ -352,7 +352,7 @@ tbody tr:nth-child(odd) th {
   font-size: 1.1rem;
   margin-top: -0.4rem;
   margin-bottom: -0.4rem;
-  color: #6e6e6f;
+  color: #6e6e6e;
 }
 .post-date {
   display: block;
@@ -364,9 +364,10 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0rem;
+  border-top: 1.3px solid #c1c1c1;
 }
 .related-posts {
   padding-left: 0;
@@ -387,6 +388,13 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+
+/* Newsletter */
+.newsletter {
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  border-top: 1.3px solid #c1c1c1;
+}
 
 /*
  * Pagination

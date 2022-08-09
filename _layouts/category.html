@@ -16,7 +16,7 @@ layout: default
         {{ post.date | date_to_string }} &middot; 
         
         {% assign words = post.content | number_of_words %}
-        {% if words < 360 %}
+        {% if words < 300 %}
         1 min 
         {% else %}
         {{ words | divided_by:200 | at_most:25 }} mins
