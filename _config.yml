@@ -1,9 +1,9 @@
 # Dependencies
-plugins: [jekyll-paginate]
+plugins:          [jekyll-paginate]
 
 # Features
 excerpt_separator: <!--more-->
-categories: "investing|finace|customer_analytics|data|musings|life"
+categories:       "investing|finace|customer_analytics|data|musings|life"
 
 # Permalinks
 permalink:        /:year/:month/:day/:title/
@@ -24,8 +24,6 @@ author:
   name:           'Steven Ripplinger'
   url:            https://www.linkedin.com/in/steve-ripplinger/
 
-paginate:         5
-
 # Custom vars
 version:          2.1.0
 
@@ -34,13 +32,9 @@ github:
 
 
 social:
-    linkedin: https://www.linkedin.com/in/steve-ripplinger/
-    twitter: https://twitter.com/steveripplinger
+    linkedin:     https://www.linkedin.com/in/steve-ripplinger/
+    twitter:      https://twitter.com/steveripplinger
 
 # Structure
 paginate:         10
-
-collections:
-  notes:
-      output: true
-      permalink: /notes/:path/
+incl_image_featured:  false
