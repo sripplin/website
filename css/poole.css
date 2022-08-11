@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 h2 {
   margin-top: 1rem;
@@ -331,7 +331,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 /* Blog post or page title */
