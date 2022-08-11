@@ -162,6 +162,11 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
+.footnotes p {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 /* Themes */
 
 /* Custom - Blue */
