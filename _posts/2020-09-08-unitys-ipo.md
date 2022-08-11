@@ -49,7 +49,7 @@ Let's fix that. Given that Unity discloses two data points for the 2018 cohort, 
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}c3_with_numbers.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}c3_with_numbers.png" style="width:80%"/>
   </center>
 </div>
 
@@ -59,7 +59,7 @@ Unfortunately, we run into another problem with Unity's disclosure: despite bein
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}revenue.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}revenue.png" style="width:80%"/>
   <p>That's a lot of question marks</p>
   </center>
 </div>
@@ -72,7 +72,7 @@ Putting all of this together, the x-axis shrinks to 2017 onward, but we can stil
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}c3_full.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}c3_full.png" style="width:80%"/>
   <p>The complete picture</p>
   </center>
 </div>
@@ -91,7 +91,7 @@ For recent cohorts, customer spend over time looks like this:
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}cohort_spend.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}cohort_spend.png" style="width:80%"/>
   </center>
 </div>
 
@@ -103,7 +103,7 @@ Another way of looking at customer spend is net revenue retention (or "dollar-ba
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}cohort_nrr.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}cohort_nrr.png" style="width:80%"/>
   </center>
 </div>
 
@@ -113,7 +113,7 @@ This reconciles well with Unity's reported disclosure at the corporate level (ag
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}nrr.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}nrr.png" style="width:80%"/>
   </center>
 </div>
 
@@ -125,7 +125,7 @@ For perspective, 133% net dollar retention is fantastic and puts Unity near the 
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}nrr_comps.png" style="width:100%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}nrr_comps.png" style="width:100%"/>
   <p><a href="https://medium.com/iconiq-capital/full-disclosure-the-importance-of-business-fundamentals-1b77361c303">Source</a></p>
   </center>
 </div>
@@ -136,8 +136,8 @@ For the rest of the post, we will focus on Unity's >$100,000 customers, as Unity
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}customers.png" style="width:100%;"/>
-  <img src="{{ site.imageurl }}{{ page.image_root }}100k_rev.png" style="width:100%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}customers.png" style="width:100%"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}100k_rev.png" style="width:100%"/>
   </center>
 </div>
 
@@ -145,7 +145,7 @@ Some simple math gets us to average revenue of $668k per customer in 2019, an in
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}avg_rev.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}avg_rev.png" style="width:80%"/>
   </center>
 </div>
 
@@ -183,7 +183,7 @@ This analysis results in an estimated payback period of 4 years for the 2018 coh
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}payback.png" style="width:80%;"/>
+  <img src="{{ site.imageurl }}{{ page.image_root }}payback.png" style="width:80%"/>
   </center>
 </div>
 
