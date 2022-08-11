@@ -49,7 +49,7 @@ Chewy includes one of the most informative charts in its S-1 filing: _Annual Net
   </center>
 </div>
 
-The drawback with the C3 chart is that it co-mingles two processes: number of active customers (retention) and spend per customer. Thankfully, Chewy provides a second useful chart: Net _Sales per Active Customer by Cohort_.
+The drawback with the C3 chart is that it co-mingles two processes: number of active customers (retention) and spend per customer. Thankfully, Chewy provides a second useful chart: _Net Sales per Active Customer by Cohort_.
 
 <div class="images">
   <center>
