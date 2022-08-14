@@ -3,12 +3,12 @@ layout: post
 title: "Chewy's IPO: Customer Analytics and Valuation using Probability Models"
 subtitle: 
 category: customer_analytics
-image_featured:
+image_featured: pav_cac_cohort.jpg
 image_root: chewys_ipo/
 postdisclaimer: true
 ---
 
-**Chewy, Inc., the pure-play online pet retailer, IPO’d on June 14, 2019 at a $9.3 billion valuation.** With its S-1 filing, Chewy provided limited - but just enough - disclosure on its customers to allow for a rich analysis of customer acquisition, retention, and economics. Utilizing probability models and methodology based on Customer-Based Corporate Valuation<sup>1</sup>, this report provides a unique analysis of Chewy’s customer dynamics, economics, and valuation.
+**Chewy, Inc., the pure-play online pet retailer, IPO’d on June 14, 2019 at a $9.3 billion valuation.** With its S-1 filing, Chewy provided limited - but just enough - disclosure on its customers to allow for a rich analysis of customer acquisition, retention, and economics. Utilizing probability models and methodology based on Customer-Based Corporate Valuation [^1], this report provides a unique analysis of Chewy’s customer dynamics, economics, and valuation.
 
 <!--more-->
 
@@ -286,9 +286,6 @@ This analysis paints a compelling story of continued active customer growth and 
 
 These insights are the result of probability models fit to the historical acquisition, retention, and spend of Chewy’s customer cohorts. The projections into the future assume the basic assumptions and processes of customer behavior continue. In that sense, the projections are probabilistic view of Chewy’s future based on what can be observed today. However, there are strategic moves that Chewy can make to change the assumptions and customer processes, potentially resulting in better (or worse) outcomes for its business and valuation.
 
-___________
-<div class="footnotes">
-    <p>
-    [1]: McCarthy, Daniel and Fader, Peter, Customer-Based Corporate Valuation for Publicly Traded Non-Contractual Firms (March 9, 2018).  Available at SSRN: <a href="https://ssrn.com/abstract=3040422">https://ssrn.com/abstract=3040422</a>
-    </p>
-</div>
+---
+
+[^1]: McCarthy, Daniel and Fader, Peter, Customer-Based Corporate Valuation for Publicly Traded Non-Contractual Firms (March 9, 2018).  Available at SSRN: [https://ssrn.com/abstract=3040422](https://ssrn.com/abstract=3040422)
