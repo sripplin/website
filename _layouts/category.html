@@ -23,8 +23,14 @@ layout: default
         {% endif %} 
         </span>
         
-        {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "<br /> <br />" }} 
-    <a href="{{ post.url }}">Read more...</a>
+        {%- if post.custom_excerpt -%}
+          <p style="margin:.9em;"></p>
+          {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
+        {%- else -%}
+          <p style="margin:.9em;"></p>
+          {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
+        {%- endif -%}
+
   </div>
   {% endfor %}
 </div>

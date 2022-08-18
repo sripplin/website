@@ -3,28 +3,32 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hi. Welcome to my website.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+​My interests include technology, startups, investing, finance, strategy, data science, and customer analytics.
 
-There are currently two themes built on Poole:
+I write long-form posts on this website. I also write a newsletter called [Under the Curve](https://steveripplinger.substack.com/).
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+### ​Ten Second Bio
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+- Bay Area, California
+- Director of Growth & Strategy at an AI startup
+- Former portfolio manager at a $1B investment firm
+- CFA; Wharton MBA
+- Career also includes work/consulting/projects relating to future mobility (worked a hyperloop startup), e-commerce (customer analytics), ad-tech, and other areas
 
-## Setup
+### Favorite Books
 
-Some fun facts about the setup of this project include:
+- [The Most Important Thing](https://www.amazon.com/Most-Important-Thing-Illuminated-Thoughtful-ebook/dp/B007SWH6OQ/) by Howard Marks - the most influential book on my investing philosophy, especially on the unpredictability of the future, the relationship between value and risk, and investor/market psychology
+- [The Art of Learning](https://www.amazon.com/Art-Learning-Journey-Optimal-Performance-ebook/dp/B000QCQ970) by Josh Waitzkin - about the principles of learning from someone who mastered both mental (chess) and physical (martial arts) disciplines
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Favorite Writers & Essays
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+- Everything from [Tim Urban](https://waitbutwhy.com/) (Wait But Why). [The Tail End](https://waitbutwhy.com/2015/12/the-tail-end.html) especially hits hard about how much time you have left for the important things. Tim's magic quality is that he writes using metaphors/cartoons/illustrations and thinks in multiple dimensions, allowing for new and insightful takes on almost every topic.
+- [Alex Danco](https://alexdanco.com/) - for his unique takes and ability to surface the underlying causes and motivations driving behavior. I especially like [Social Capital in Silicon Valley](https://alexdanco.com/2020/01/23/social-capital-in-silicon-valley/) and [Positional Scarcity](https://alexdanco.com/2019/09/07/positional-scarcity/)
+- [Status as a Service](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service) by Eugene Wei - I am fascinated by status-seeking behavior and this (long) essay expertly dissects online social networks and why they succeed or fail.
+- [Lawrence Yeo](https://moretothat.com/) (More To That). [The Release Ratio](https://moretothat.com/release-ratio/) helped motivate me to write more.
 
-Thanks for reading!
+### Contact
+
+steve dot last @ gmail

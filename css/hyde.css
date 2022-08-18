@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 15.5px;
+    font-size: 15px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -175,7 +175,7 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-blue .content a,
 .theme-base-blue .related-posts li a:hover {
-  color: #377095;
+  color: #1c6192;
 }
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
