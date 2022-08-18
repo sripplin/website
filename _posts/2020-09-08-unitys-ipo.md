@@ -12,9 +12,8 @@ Unity Software Inc. recently filed its S-1 in advance of going public. Unity is 
 
 <!--more-->
 
-## Contents
+## Contents <!-- omit in toc -->
 
-- [Contents](#contents)
 - [A customer-cohort-chart, sort of](#a-customer-cohort-chart-sort-of)
 - [Filling in the gaps](#filling-in-the-gaps)
 - [Insights:](#insights)
@@ -47,11 +46,9 @@ At first glance, this chart looks pretty good: cohort revenue is increasing over
 
 Let's fix that. Given that Unity discloses two data points for the 2018 cohort, we can easily populate the entire chart with very close approximations based on pixel length:
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}c3_with_numbers.png" style="width:80%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}c3_with_numbers.png" style="width:80%"/>
+</center>
 
 Since we now know the numbers for the above chart, we should be able to calculate pre-2016 cohort revenue by subtracting 2016-2019 cohort revenue from the total annual revenue disclosed elsewhere.
 
@@ -89,11 +86,9 @@ Pre-2016 cohort revenue comprised exactly 50% of total revenue in 2019. This is 
 
 For recent cohorts, customer spend over time looks like this:
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}cohort_spend.png" style="width:80%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}cohort_spend.png" style="width:80%"/>
+</center>
 
 Interestingly, there was a slight downward trend in cohort revenue from 2016-2018, though that has been reversed with strong first year revenue from the 2019 cohort.
 
@@ -101,21 +96,17 @@ Interestingly, there was a slight downward trend in cohort revenue from 2016-201
 
 Another way of looking at customer spend is net revenue retention (or "dollar-based net expansion rate"), which is above 100% for all of Unity's cohorts, including the pre-2016 cohort:
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}cohort_nrr.png" style="width:80%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}cohort_nrr.png" style="width:80%"/>
+</center>
 
 Each cohort seems to converge to the 120%-130% after one year and stabilize in that range.
 
 This reconciles well with Unity's reported disclosure at the corporate level (again, only for 2018 and later):
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}nrr.png" style="width:80%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}nrr.png" style="width:80%"/>
+</center>
 
 This means that 2019 revenue would have grown 33% without any new customers. Unity's actual growth in 2019 was 42% because it did add new customers. Growth is much easier when it is already baked in from customers you already have.
 
@@ -134,20 +125,16 @@ For perspective, 133% net dollar retention is fantastic and puts Unity near the 
 
 For the rest of the post, we will focus on Unity's >$100,000 customers, as Unity uses this as a cut-off for some of its disclosures, including these two charts:
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}customers.png" style="width:100%"/>
-  <img src="{{ site.imageurl }}{{ page.image_root }}100k_rev.png" style="width:100%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}customers.png" style="width:100%"/>
+<img src="{{ site.imageurl }}{{ page.image_root }}100k_rev.png" style="width:100%"/>
+</center>
 
 Some simple math gets us to average revenue of $668k per customer in 2019, an increase from $535k in 2018.
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}avg_rev.png" style="width:80%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}avg_rev.png" style="width:80%"/>
+</center>
 
 ### 5) Customer acquisition costs of $1.2 million in 2018 and $1.6 million in 2019
 
@@ -181,11 +168,9 @@ Using the above information, we can calculate a payback period with a few additi
 
 This analysis results in an estimated payback period of 4 years for the 2018 cohort and 3 years for the 2019 cohort:
 
-<div class="images">
-  <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}payback.png" style="width:80%"/>
-  </center>
-</div>
+<center>
+<img src="{{ site.imageurl }}{{ page.image_root }}payback.png" style="width:80%"/>
+</center>
 
 It is difficult to qualitatively assess how good this is without an NPV analysis and context around how long customers actually stick around, but this seems to be reasonably healthy given the nature of Unity's business.
 
