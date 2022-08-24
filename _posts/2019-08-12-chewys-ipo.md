@@ -9,7 +9,7 @@ postdisclaimer: true
 custom_excerpt: Chewy, Inc., the pure-play online pet retailer, IPO’d on June 14, 2019 at a $9.3 billion valuation. With its S-1 filing, Chewy provided limited - but just enough - disclosure on its customers to allow for a rich analysis of customer acquisition, retention, and economics. Utilizing probability models and methodology based on Customer-Based Corporate Valuation, this report provides a unique analysis of Chewy’s customer dynamics, economics, and valuation.
 ---
 
-**Chewy, Inc., the pure-play online pet retailer, IPO’d on June 14, 2019 at a $9.3 billion valuation.** With its S-1 filing, Chewy provided limited - but just enough - disclosure on its customers to allow for a rich analysis of customer acquisition, retention, and economics. Utilizing probability models and methodology based on Customer-Based Corporate Valuation [^1], this report provides a unique analysis of Chewy’s customer dynamics, economics, and valuation.
+**Chewy, Inc., the pure-play online pet retailer, IPO’d on June 14, 2019 at a $9.3 billion valuation.** With its S-1 filing, Chewy provided limited - but just enough - disclosure on its customers to allow for a rich analysis of customer acquisition, retention, and economics. Utilizing probability models and methodology based on Customer-Based Corporate Valuation[^1], this report provides a unique analysis of Chewy’s customer dynamics, economics, and valuation.
 
 ### Key insights:
 
@@ -44,15 +44,12 @@ Chewy includes one of the most informative charts in its S-1 filing: _Annual Net
   <center>
   <img src="{{ site.imageurl }}{{ page.image_root }}netsales_cohort.jpg" style="width:100%"/>
   </center>
-</div>
 
 The drawback with the C3 chart is that it co-mingles two processes: number of active customers (retention) and spend per customer. Thankfully, Chewy provides a second useful chart: _Net Sales per Active Customer by Cohort_.
-
 
   <center>
   <img src="{{ site.imageurl }}{{ page.image_root }}netsales_perCustomer.jpg" style="width:100%"/>
   </center>
-</div>
 
 The above chart shows an impressive increase in spend per active customer the longer a cohort exists, although it is important to realize the increase over time is at least in part because customers who churn in any given year will presumably have lower average spend than those who stay. Nonetheless, **the average active customer across the cohorts is spending $503 in year 2 (the first full year as a customer), increasing to $711 in year 5** – a clear indication of increasing spend per customer given the retention curve flattens out after the first couple years. This is also reflected in the C3 chart above with increasing total net sales per cohort over time.
 
@@ -61,7 +58,6 @@ More importantly, with the two above charts from Chewy’s S-1 filing, along wit
 Note: all the charts to follow are a result of our analysis. “Actual” refers to information both _explicitly_ and _implicitly_ disclosed by Chewy. Some of these datapoints and calculations are approximations. “Model” refers to the probability models we fit to the data.
 
 The first analysis we can do is to transform explicit disclosure into implicit information on customer acquisition and survival curves for recent cohorts.
-
 
 <center>
 <img src="{{ site.imageurl }}{{ page.image_root }}active_customers_cohort_actual.jpg" style="width:70%"/>

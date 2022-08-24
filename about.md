@@ -22,7 +22,7 @@ I write long-form posts on this website. I also write a newsletter called [Under
 - [The Most Important Thing](https://www.amazon.com/Most-Important-Thing-Illuminated-Thoughtful-ebook/dp/B007SWH6OQ/) by Howard Marks - the most influential book on my investing philosophy, especially on the unpredictability of the future, the relationship between value and risk, and investor/market psychology
 - [The Art of Learning](https://www.amazon.com/Art-Learning-Journey-Optimal-Performance-ebook/dp/B000QCQ970) by Josh Waitzkin - about the principles of learning from someone who mastered both mental (chess) and physical (martial arts) disciplines
 
-Favorite Writers & Essays
+### Favorite Writers & Essays
 
 - Everything from [Tim Urban](https://waitbutwhy.com/) (Wait But Why). [The Tail End](https://waitbutwhy.com/2015/12/the-tail-end.html) especially hits hard about how much time you have left for the important things. Tim's magic quality is that he writes using metaphors/cartoons/illustrations and thinks in multiple dimensions, allowing for new and insightful takes on almost every topic.
 - [Alex Danco](https://alexdanco.com/) - for his unique takes and ability to surface the underlying causes and motivations driving behavior. I especially like [Social Capital in Silicon Valley](https://alexdanco.com/2020/01/23/social-capital-in-silicon-valley/) and [Positional Scarcity](https://alexdanco.com/2019/09/07/positional-scarcity/)

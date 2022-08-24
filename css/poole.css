@@ -49,12 +49,12 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15.5px;
+  font-size: 15px;
   line-height: 1.45;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -82,17 +82,17 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.4;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 h3 {
   margin-top: 1rem;
@@ -121,8 +121,9 @@ strong {
 
 /* Lists */
 ul, ol, dl {
+  font-size:1rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 dt {
@@ -362,7 +363,7 @@ tbody tr:nth-child(odd) th {
   font-size: 1rem;
   margin-top: -.4rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #969696;
 }
 
 /* Related posts */
