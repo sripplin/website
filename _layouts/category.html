@@ -7,29 +7,41 @@ layout: default
 <div class="posts">
   {% for post in site.categories[page.category] %}
   <div class="post">
-    <h2 align="left" class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    <span align="left" class="post-date" title="Estimated read time">
-        {{ post.date | date_to_string }} &middot; 
-        
-        {% assign words = post.content | number_of_words %}
-        {% if words < 300 %}
-        1 min 
-        {% else %}
-        {{ words | divided_by:200 | at_most:25 }} mins
-        {% endif %} 
+    <h2 class="post-title">
+      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    
+    {%- if post.subtitle -%}
+      <div>
+        <span class="post-subtitle" title="Subtitle">
+          {{post.subtitle}}
         </span>
-        
-        {%- if post.custom_excerpt -%}
-          <p style="margin:.9em;"></p>
-          {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
-        {%- else -%}
-          <p style="margin:.9em;"></p>
-          {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
-        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <!-- Metadata -->
+    <div class="post-meta">
+      <p style="margin:.7em;"></p>
+      <span style="display: inline" class="post-date" title="Estimated read time">
+          {{ post.date | date: "%B %-d, %Y" }} &middot; 
+           {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
+       </span>
+       &emsp;
+           
+       <span style="display:inline">[
+           {% capture category_name %}{{ post.category }}{% endcapture %}
+           <a href="{{ site.url }}/category/{{ category_name }}">{{ category_name}}</a>
+       ]</span>
+    </div>
+  
+  <!-- excerpt -->
+  {%- if post.custom_excerpt -%}
+    <p style="margin:.5em;"></p>
+    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
+  {%- else -%}
+    <p style="margin:.5em;"></p>
+    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
+  {%- endif -%}
 
   </div>
   {% endfor %}
