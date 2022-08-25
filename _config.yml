@@ -3,7 +3,7 @@ plugins:          [jekyll-paginate]
 
 # Features
 excerpt_separator: <!--more-->
-categories:       "investing|finace|customer_analytics|data|musings|life"
+categories:       "investing|finance|customer_analytics|data|musings|life"
 
 # Permalinks
 permalink:        /:year/:month/:day/:title/

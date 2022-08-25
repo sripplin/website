@@ -11,8 +11,8 @@ layout: default
       </span>
     </div>
   {%- endif -%}
-  <div>
-    <p style="margin:.7em;"></p>
+  <div class="post-meta">
+    <p style="margin:.6em;"></p>
     {% include post_date_read_time.html %}
     &emsp; 
     <span style="display:inline" class="post-date" title="Estimated read time">[
@@ -20,7 +20,7 @@ layout: default
          <a href="/category/{{ category_name }}">{{ category_name }}</a>
      ]</span>
   </div>
-  <br>
+  <hr>
   <span style="text-align:justify" class ="post-content">
     {{ content }}
     {%if page.postdisclaimer == true%}
