@@ -96,7 +96,7 @@ h2 {
 }
 h3 {
   margin-top: 1rem;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
 }
 h4 {
   margin-top: 1rem;
@@ -348,6 +348,10 @@ tbody tr:nth-child(odd) th {
 .post-title {
   line-height: 1.2;
   margin-top: 0;
+}
+.post-title-top {
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 /* Meta data lines below post title */

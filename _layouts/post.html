@@ -3,7 +3,10 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <center>
+  <!-- Title -->
+  <h1 class="post-title-top">{{ page.title }}</h1>
+  <!-- Subtitle -->
   {%- if page.subtitle -%}
     <div>
       <span class="post-subtitle" title="Subtitle">
@@ -11,17 +14,21 @@ layout: default
       </span>
     </div>
   {%- endif -%}
+  <!-- Metadata -->
   <div class="post-meta">
     <p style="margin:.6em;"></p>
     {% include post_date_read_time.html %}
     &emsp; 
     <span style="display:inline" class="post-date" title="Estimated read time">[
          {% capture category_name %}{{ page.category }}{% endcapture %}
-         <a href="/category/{{ category_name }}">{{ category_name }}</a>
+         <a href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
      ]</span>
   </div>
   <hr>
-  <span style="text-align:justify" class ="post-content">
+  </center>
+  
+  <!-- Content -->
+  <span style="text-align:left" class="post-content">
     {{ content }}
     {%if page.postdisclaimer == true%}
       <div>
@@ -31,10 +38,10 @@ layout: default
   </span>
 </div>
 
+<!-- Related -->
 <div class="related">
   <h3>Related Posts</h3>
   <ul class="related-posts">
-
     {% assign nSameTag = site.categories[page.category].size | minus: 1 %}
     {% assign nRelated = 3 | minus: nSameTag %}
     {% for post in site.categories[page.category] limit:4 %}
@@ -43,7 +50,7 @@ layout: default
               <h4>
                 <a href="{{ post.url }}">
                   {{ post.title }}
-                  <small>{{ post.date | date_to_string }}</small>
+                  <small>{{ post.date | date: "%B %-d, %Y" }}</small>
                 </a>
               </h4>
             </li>
@@ -55,7 +62,7 @@ layout: default
         <h4>
           <a href="{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+            <small>{{ post.date | date: "%Y-%m-%d"  }}</small>
           </a>
         </h4>
       </li>
@@ -63,8 +70,11 @@ layout: default
   </ul>
 </div>
 
+<!-- Newsletter -->
 <div class="newsletter">
   <h3>Subscribe</h3>
   <p>To receive my latest writings via email, subscribe to my Substack newsletter.</p>
-  <iframe src="https://steveripplinger.substack.com/embed" width="80%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <center>
+  <iframe src="https://steveripplinger.substack.com/embed" width="500" max-width="100%" height="300" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </center>
 </div>
