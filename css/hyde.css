@@ -162,6 +162,10 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
+.post-content, .page-content {
+  font-size: 0.95rem;
+}
+
 .footnotes p {
   font-style: italic;
   font-size: 0.8rem;
@@ -169,7 +173,7 @@ a.sidebar-nav-item:focus {
 
 /* Themes */
 
-/* Custom - Blue */
+/* Custom - Blue #1a3b82 */
 .theme-base-blue .sidebar {
   background-color: #152a59;
 }
@@ -179,5 +183,5 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
-  color: #1a3b82;
+  color: #111111;
 }

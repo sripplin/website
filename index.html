@@ -7,6 +7,7 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
 
+    <!-- Image -->
     {%if site.incl_image_featured == true%}
       {%- if post.image_featured -%}
         <img src="{{ site.imageurl }}{{ post.image_root }}{{ post.image_featured }}" alt="" class="featured-image-post">
@@ -16,10 +17,12 @@ title: Home
       {%- endif -%}
     {%- endif -%}
     
-    <h1 class="post-title">
+    <!-- Title -->
+    <h2 class="post-title">
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
+    </h2>
     
+    <!-- Subtitle -->
     {%- if post.subtitle -%}
       <div>
         <span class="post-subtitle" title="Subtitle">
@@ -36,7 +39,6 @@ title: Home
            {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
        </span>
        &emsp;
-           
        <span style="display:inline">[
            {% capture category_name %}{{ post.category }}{% endcapture %}
            <a href="{{ site.url }}/category/{{ category_name }}">{{ category_name}}</a>
@@ -51,7 +53,6 @@ title: Home
     <p style="margin:.5em;"></p>
     {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
   {%- endif -%}
-
 </div>
   {% endfor %}
 </div>
