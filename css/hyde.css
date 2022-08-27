@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -163,8 +163,9 @@ a.sidebar-nav-item:focus {
 }
 
 .post-content, .page-content {
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
+
 
 .footnotes p {
   font-style: italic;
@@ -184,4 +185,7 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
   color: #111111;
+}
+.theme-base-blue .content p {
+  font-family: 'Literata';
 }
