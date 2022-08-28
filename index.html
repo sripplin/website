@@ -46,11 +46,10 @@ title: Home
     </div>
   
   <!-- excerpt -->
+  <p class='excerpt' style="margin:.5em;"></p>
   {%- if post.custom_excerpt -%}
-    <p style="margin:.5em;"></p>
     {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
   {%- else -%}
-    <p style="margin:.5em;"></p>
     {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
   {%- endif -%}
 </div>
