@@ -32,7 +32,8 @@
  */
 
 html {
-  font-family: "PT Sans", "Domine", Helvetica, Arial, sans-serif;
+  font-family: "Literata", "PT Sans", serif;
+  text-align: justify;
 }
 @media (min-width: 48em) {
   html {
@@ -54,6 +55,7 @@ html {
  */
 
 .sidebar {
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
@@ -152,6 +154,11 @@ a.sidebar-nav-item:focus {
   object-fit: cover;
 }
 
+.excerpt {
+  margin:.5em;
+
+}
+
 .images p {
   position: relative;
   display: block;
@@ -163,9 +170,9 @@ a.sidebar-nav-item:focus {
 }
 
 .post-content, .page-content {
-  font-size: 1rem;
-}
+  text-align:justify;
 
+}
 
 .footnotes p {
   font-style: italic;
@@ -185,8 +192,4 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
   color: #111111;
-}
-.theme-base-blue .content p {
-  font-family: 'Literata';
-  font-size: 18px;
 }
