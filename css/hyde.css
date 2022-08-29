@@ -32,17 +32,18 @@
  */
 
 html {
-  font-family: "Literata", "PT Sans", serif;
+  font-family: "Roboto", serif, "Literata", "PT Sans", serif;
+  font-weight: 300;
   text-align: justify;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -83,6 +84,7 @@ html {
   margin-top: 0;
   margin-bottom: 0.3rem;
   font-family: "Domine", serif;
+  font-weight: 600;
   line-height: 1.25;
   font-size: 2rem;
 }
@@ -128,6 +130,7 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+  display: block;
 }
 
 @media (min-width: 48em) {
@@ -156,7 +159,6 @@ a.sidebar-nav-item:focus {
 
 .excerpt {
   margin:.5em;
-
 }
 
 .images p {
@@ -169,9 +171,9 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
-.post-content, .page-content {
+.post-content, .page-content, .excerpt {
   text-align:justify;
-
+  line-height: 160%;
 }
 
 .footnotes p {
@@ -191,5 +193,5 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
-  color: #111111;
+  color: #222222;
 }
