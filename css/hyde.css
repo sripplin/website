@@ -34,7 +34,12 @@
 html {
   font-family: "Roboto", serif, "Literata", "PT Sans", serif;
   font-weight: 300;
-  text-align: justify;
+}
+
+@media (min-width: 38em) {
+  html {
+    font-size: 17px;
+  }
 }
 @media (min-width: 48em) {
   html {
@@ -49,6 +54,10 @@ html {
 @media only screen and (max-device-width: 480px) {
   html {
     font-size: 20px;
+  }
+  .post-content, .page-content, .excerpt {
+    text-align:left;
+    line-height: 140%;
   }
 }
 
