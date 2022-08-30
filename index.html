@@ -48,9 +48,9 @@ title: Home
   <!-- excerpt -->
   <p class='excerpt' style="margin:.5em;"></p>
   {%- if post.custom_excerpt -%}
-    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
+    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
   {%- else -%}
-    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
+    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
   {%- endif -%}
 </div>
   {% endfor %}
