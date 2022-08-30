@@ -34,6 +34,7 @@
 html {
   font-family: "Roboto", serif, "Literata", "PT Sans", serif;
   font-weight: 300;
+  text-align:justify;
 }
 
 @media (min-width: 38em) {
@@ -54,10 +55,7 @@ html {
 @media only screen and (max-device-width: 480px) {
   html {
     font-size: 20px;
-  }
-  .post-content, .page-content, .excerpt {
     text-align:left;
-    line-height: 140%;
   }
 }
 
@@ -185,9 +183,16 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
-.post-content, .page-content, .excerpt {
+.post-content, .page-content, .excerpt, .custom_excerpt {
   text-align:justify;
   line-height: 160%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .post-content, .page-content, .excerpt, .custom_excerpt {
+    text-align:left;
+    line-height: 140%;
+  }
 }
 
 .footnotes p {
