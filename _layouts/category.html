@@ -37,10 +37,10 @@ layout: default
   <!-- excerpt -->
   {%- if post.custom_excerpt -%}
     <p style="margin:.5em;"></p>
-    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
+    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
   {%- else -%}
     <p style="margin:.5em;"></p>
-    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
+    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
   {%- endif -%}
 
   </div>
