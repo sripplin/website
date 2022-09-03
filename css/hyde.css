@@ -32,14 +32,14 @@
  */
 
 html {
-  font-family: "Roboto", serif, "Literata", "PT Sans", serif;
+  font-family: "PT Sans", serif, "Literata", "PT Sans", serif;
   font-weight: 300;
   text-align:justify;
 }
 
 @media (min-width: 38em) {
   html {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 @media (min-width: 48em) {
@@ -54,7 +54,7 @@ html {
 }
 @media only screen and (max-device-width: 480px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
     text-align:left;
   }
 }
@@ -185,13 +185,13 @@ a.sidebar-nav-item:focus {
 
 .post-content, .page-content, .excerpt, .custom_excerpt {
   text-align:justify;
-  line-height: 160%;
+  line-height: 175%;
 }
 
 @media only screen and (max-device-width: 480px) {
   .post-content, .page-content, .excerpt, .custom_excerpt {
     text-align:left;
-    line-height: 140%;
+    line-height: 175%;
   }
 }
 
@@ -206,9 +206,13 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .sidebar {
   background-color: #152a59;
 }
-.theme-base-blue .content a,
 .theme-base-blue .related-posts li a:hover {
   color: #1c6192;
+}
+.theme-base-blue .content a {
+  text-decoration: none;
+  border-bottom: 2px;
+  border-bottom-color: #1c6192;
 }
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
