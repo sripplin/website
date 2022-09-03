@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", serif, "Literata", "PT Sans", serif;
+  font-family: "PT Serif", serif, "Literata", "PT Sans", serif;
   font-weight: 300;
   text-align:justify;
 }
@@ -185,13 +185,13 @@ a.sidebar-nav-item:focus {
 
 .post-content, .page-content, .excerpt, .custom_excerpt {
   text-align:justify;
-  line-height: 175%;
+  line-height: 170%;
 }
 
 @media only screen and (max-device-width: 480px) {
   .post-content, .page-content, .excerpt, .custom_excerpt {
     text-align:left;
-    line-height: 175%;
+    line-height: 160%;
   }
 }
 
