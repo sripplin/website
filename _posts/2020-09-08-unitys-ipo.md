@@ -36,7 +36,7 @@ In its S-1, Unity discloses a customer-cohort-chart (C3):
   </center>
 </div>
 
-These charts, as discussed in my [Chewy IPO analysis](2019-08-12-chewys-ipo.md](https://www.steveripplinger.com/posts/chewys-ipo)), are incredibly insightful as they reveal so much about a company's customer acquisition, retention, and spend.
+These charts, as discussed in my [Chewy IPO analysis](2019-08-12-chewys-ipo.md), are incredibly insightful as they reveal so much about a company's customer acquisition, retention, and spend.
 
 At first glance, this chart looks pretty good: cohort revenue is increasing over time, which means that increasing customer spend is more than offsetting any churn. Each new cohort is entirely additive such that new customer acquisition is not required for growth.
 
