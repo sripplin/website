@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #2a2a2a;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -81,12 +81,12 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Domine;
+  font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI';
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.4;
   color: #313131;
-  text-rendering: optimizeLegibility;
+  text-rendering: antialiased;
 }
 h1 {
   font-size: 1.5rem;
@@ -352,6 +352,7 @@ tbody tr:nth-child(odd) th {
 }
 .page-title,
 .post-title {
+  text-align: left;
   line-height: 1.2;
   margin-top: 0;
 }
@@ -361,22 +362,26 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Meta data lines below post title */
+.post-subtitle, .post-date, .post-meta {
+  font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
 .post-subtitle {
   display: block;
   font-size: 1.1rem;
   margin-top: -0.4rem;
-  margin-bottom: -0.4rem;
+  margin-bottom: -0.2rem;
   color: #6e6e6e;
 }
 .post-date {
   display: block;
-  font-size: 0.9rem;
-  margin-top: -.3rem;
-  margin-bottom: .8rem;
+  font-size: 0.8rem;
+  margin-top: -0.3rem;
+  margin-bottom: 0.8rem;
   color: #969696;
 }
 .post-meta {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* Related posts */
