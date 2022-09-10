@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<h1 align="center">{{ page.title }}</h1>
-<br>
+<h1 class="post-title-top" align="center">{{ page.title }}</h1>
+<hr style="margin-bottom: 2.5rem">
 <div class="posts">
   {% for post in site.categories[page.category] %}
   <div class="post">
     <h2 class="post-title">
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
+    </h2>
     
     {%- if post.subtitle -%}
       <div>

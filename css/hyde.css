@@ -54,7 +54,7 @@ html {
 }
 @media only screen and (max-device-width: 480px) {
   html {
-    font-size: 18px;
+    font-size: 19px;
     text-align:left;
   }
 }
