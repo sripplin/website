@@ -184,6 +184,12 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
+@media only screen and (max-device-width: 480px) {
+  img {
+    max-width: 100%;
+  }
+}
+
 .post-content, .page-content, .excerpt, .custom_excerpt {
   text-align:justify;
   line-height: 1.6em;
