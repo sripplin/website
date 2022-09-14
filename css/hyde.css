@@ -74,8 +74,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #181818;
 }
-@media (min-width: 48em) and
-(hover: hover) {
+@media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
