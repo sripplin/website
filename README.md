@@ -19,7 +19,8 @@ I performed a lot of modifications including
 - enabled font awesome
 - reducing font sizes
 - snippits on home page instead of full posts
-- added featured image to post previews on home page
+- added featured image to post previews on home page (toggled off)
+- added button to scroll [back to top](https://github.com/vfeskov/vanilla-back-to-top) for posts
 
 ### Fonts
 
