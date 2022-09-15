@@ -48,7 +48,7 @@ layout: default
         {% unless post.url == page.url %}
             <li>
               <h4>
-                <a href="{{ post.url }}">
+                <a href="{{site.url}}{{ post.url }}">
                   {{ post.title }}
                   <small>{{ post.date | date: "%Y-%m-%d"  }}</small>
                 </a>
@@ -60,7 +60,7 @@ layout: default
     {% for post in site.related_posts limit:nRelated %}
       <li>
         <h4>
-          <a href="{{ post.url }}">
+          <a href="{{site.url}}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date: "%Y-%m-%d"  }}</small>
           </a>
@@ -80,7 +80,7 @@ layout: default
 </div>
 
 <!-- Back to Top -->
-<script src="/assets/vanilla-back-to-top.min.js"></script>
+<script src="{{site.url}}/assets/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
   diameter: 40,
   backgroundColor: '#152a59',
