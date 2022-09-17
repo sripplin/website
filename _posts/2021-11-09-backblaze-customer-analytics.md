@@ -16,7 +16,7 @@ Here is the C3 chart:
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}c3_orig.png" style="width:80%"/>
+  <img class="img80" src="{{ site.imageurl }}{{ page.image_root }}c3_orig.png"/>
   <p>Source: BackBlaze S-1</p>
   </center>
 </div>
@@ -47,7 +47,7 @@ The first thing we can do is extract each data point:
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}c3_labels.png" style="width:80%"/>
+  <img class="img80" src="{{ site.imageurl }}{{ page.image_root }}c3_labels.png"/>
   <p>Note: approximations based on pixel length</p>
   </center>
 </div>
@@ -58,7 +58,7 @@ However, we run into a small snag: the company only includes the last two calend
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}revenue_inception.png" style="width:80%"/>
+  <img class="img80" src="{{ site.imageurl }}{{ page.image_root }}revenue_inception.png"/>
   <p>This disclosure rule should be changed.</p>
   </center>
 </div>
@@ -68,7 +68,7 @@ However, we run into a small snag: the company only includes the last two calend
 So we're stuck with just the last few years to do some of the more interesting analysis. But here is the shrinked-x-axis-but-full-version of the C3 chart with pre-2016 cohort included:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}c3_full.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}c3_full.png"/>
 </center>
 
 With that data cleanup done, we can do some customer analytics and generate some insights.
@@ -84,19 +84,19 @@ Customer cohorts for BackBlaze grow over time, stacking nicely on top of each ot
 After the jump from year 1 to year 2, largely due to year 2 being the first full year for a customer, cohort spend growth moderates substantially in year 3 and beyond.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}cohortspenddollars.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}cohortspenddollars.png"/>
 </center>
 
 Normalizing these into % terms, here is what cohort spend looks like over time relative to first year spend:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}cohortspend_percent.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}cohortspend_percent.png"/>
 </center>
 
 By calendar year, we can see that cohort revenue quickly moderates to high-single-digit-to-mid-teens annual growth.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}cohort_nrr.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}cohort_nrr.png"/>
 </center>
 
 ### 3) Net Revenue Retention of 114% in 2020
@@ -104,7 +104,7 @@ By calendar year, we can see that cohort revenue quickly moderates to high-singl
 Net Revenue Retention (NRR) has been fairly stable in the last couple years at 113% in 2019 and 114% in 2020, with a decrease to 110% in the first six months of 2021. With context from the above charts, this makes sense given older cohorts growing at high-single digits, more recent cohorts growing around 15%, and the newest cohort getting the large second year increase.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}nrr.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}nrr.png"/>
 </center>
 
 For [reference](https://cloudedjudgement.substack.com/p/hashicorp-benchmarking-the-s-1-data), the median NRR of cloud companies is 119%, with companies such as Snowflake (169%) and UiPath (144%) at the high end, and few such as Domo (90%) and BenefitFocus (95%) at the lower end.
@@ -114,7 +114,7 @@ It is worth noting that BackBlaze has two business lines: Computer Backup with $
 While much smaller, the B2 Cloud Storage business is growing revenue at 61% with 130% NRR versus the Computer Backup business at 11% revenue growth and 104% NRR.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}nrr_breakdown.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}nrr_breakdown.png"/>
 </center>
 
 To the extent B2 is more of a focus going forward appears to be a positive direction for the company.
@@ -129,7 +129,7 @@ We can further get a sense of the customer dynamics of the company by calculatin
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}waterfall.png" style="width:80%;"/>
+  <img class="img80" src="{{ site.imageurl }}{{ page.image_root }}waterfall.png"/>
   <p>Note: 2019 starting customers is an estimate</p>
   </center>
 </div>
@@ -139,7 +139,7 @@ We can further get a sense of the customer dynamics of the company by calculatin
 To further illustrate the more recent trend in customer growth, here are the customers over the last ten quarters and the slowing Y/Y growth, which is now around 8%.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}quarterly_cust.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}quarterly_cust.png"/>
 </center>
 
 ### 6) Growing ARPU
@@ -147,7 +147,7 @@ To further illustrate the more recent trend in customer growth, here are the cus
 While overall customer growth may be slowing, it is noteworthy that average revenue per customer continues to grow at ~15% per year as the company increases pricing and the revenue mix shifts more towards the higher revenue B2 Cloud Storage business ($326 ARPU) from the core Computer Backup business ($99 ARPU).
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}arpu_q.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}arpu_q.png"/>
 </center>
 
 ### 7) Increasing Customer Acquisition Costs (CAC)
@@ -157,7 +157,7 @@ In 2020, BackBlaze spent $11.9M on sales & marketing to acquire 82k customers, e
 For the first half of 2021, CAC has continued to increase, now at $207 per customer. This is a concerning trend, although the company has been shifting towards the higher value B2 Cloud Storage business.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}cac.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}cac.png"/>
 </center>
 
 Note: this CAC calculation assumes 100% of sales & marketing is attributed to new customer acquisition. This is not entirely the case in reality, but it is a useful way to standardize and think about CAC.
@@ -172,7 +172,7 @@ We can calculate economics for the latest cohorts based on the following assumpt
 This analysis results in 2.3 year payback for the 2019 cohort, increasing to 3.2 years for the 2020 cohort, which is on the longer end unless customer lifetimes are exceptionally long.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}payback.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}payback.png"/>
 </center>
 
 We can also calculate IRR and Post-Acquisition Value (PAV), although this assumes long customer lifetimes and that cohort revenue grows indefinitely, which is a significant assumption given there is variability in prior cohorts and a lot can change with software products.
@@ -180,8 +180,8 @@ We can also calculate IRR and Post-Acquisition Value (PAV), although this assume
 With that caveat, this analysis results in a healthy 85% IRR, and 5.7x PAV/CAC for the 2019 cohort. For the 2020 cohort, these measures weaken to 51% IRR, and 3.6x PAV/CAC.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}irr.png" style="width:80%"/>
-<img src="{{ site.imageurl }}{{ page.image_root }}pav_cac.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}irr.png"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}pav_cac.png"/>
 </center>
 
 Keep in mind that these economics are at the customer level and aggregate cohort economics need to cover fixed costs for the company itself.

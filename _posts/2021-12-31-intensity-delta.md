@@ -13,7 +13,7 @@ There is a common saying in investing that it is not enough to be right; you nee
 <!--more-->
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}2x2framework.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}2x2framework.png"/>
 </center>
 
 I disagree. You can have the same consensus directional view on something and still make (a lot of) money. In fact, I posit that right plus consensus is not only where most returns come from, it is also where the best returns come from.
@@ -27,7 +27,7 @@ The reason for this is the **intensity delta - a view that something will be occ
 The problem with the conventional 2x2 framework is that "consensus" is often misinterpreted as a binary directional call (positive or negative), when it is actually a distribution on a continuum:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}continuum.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}continuum.png"/>
 </center>
 
 In this example, the consensus is already positive, but if you are more positive than the market-clearing consensus point, than you should profit if the distribution curve shifts in your direction.
@@ -82,7 +82,7 @@ The other thing that makes a time delta difficult is that you actually have to b
 
 <div class="images">
   <center>
-  <img src="{{ site.imageurl }}{{ page.image_root }}outcome_vs_time.png" style="width:100%;"/>
+  <img class="img100" src="{{ site.imageurl }}{{ page.image_root }}outcome_vs_time.png"/>
   <p>Source: 'Technology Strategy' course, Prof. Kapoor, 2017, Wharton</p>
   </center>
 </div>

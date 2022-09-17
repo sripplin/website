@@ -13,7 +13,7 @@ custom_excerpt: How forcing mechanisms propel us up the Long Staircase of Habit 
 Starting a new habit can often look like this:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}1.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}1.png">
 </center>
 
 It can be hard just to do something once, let alone make it into a habit. But by understanding how habits work, we can take actionable steps to build better habits and stop bad ones.
@@ -67,7 +67,7 @@ Most likely, these spandex-laden humans have learned and felt the benefit of a h
 Sticking with the workout example, the flywheel might look something like this:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}2.png" style="width:90%"/>
+<img class="img90" src="{{ site.imageurl }}{{ page.image_root }}2.png"/>
 </center>
 
 But the flywheel is step 3. It only manifests after the habit is formed and it is missing an important element. We’ll come back to this later.
@@ -75,7 +75,7 @@ But the flywheel is step 3. It only manifests after the habit is formed and it i
 Steps 1 and 2 come first. And they sure aren’t easy:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}3.png" style="width:70%"/>
+<img class="img70" src="{{ site.imageurl }}{{ page.image_root }}3.png"/>
 </center>
 
 ## Step 1) Getting a Habit Started
@@ -101,7 +101,7 @@ Public goals can be taken a step further: making a specific “accountability ap
 Penalties for failure is one of the more interesting forcing mechanisms. A common early example is the proverbial “swear jar”, but technology has allowed for more extreme versions. For example, stickK is a commitment website/app that allows you to input goals and stake money on achieving them. My favorite feature is the ability to choose a cause you hate, an “anti-charity’, where your money will go if you fail to meet your goal, such an extremist political party, the NRA, or the New York Yankees Fan Club.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}4.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}4.png"/>
 </center>
 
 Any or all of these forcing mechanisms can work to get started on a habit. Even so, some degree of base motivation is needed or else you won’t even be willing to set up these mechanisms.
@@ -110,14 +110,14 @@ Whether getting started by sheer force of will or by use of a forcing mechanism,
 
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}5.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}5.png"/>
 </center>
 
 
 Unfortunately, getting started is just step 1. The flywheel is a long way off.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}6.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}6.png"/>
 </center>
 
 ## Step 2) Form Habit
@@ -131,13 +131,13 @@ To understand how to reach the habit flywheel, we first need to break down what 
 James Clear, author of [Atomic Habits](https://jamesclear.com/atomic-habits), has a great framework for how habits work in our minds:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}7.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}7.png"/>
 </center>
 
 For example, many people drink a cup of coffee as soon as they wake up, which is comprised of these four parts:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}8.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}8.png"/>
 </center>
 
 ### 1) Cue
@@ -175,7 +175,7 @@ More importantly, rewards teach our brains to recognize patterns and be on const
 While all four steps of a habit always remain present, our brains love efficiency and thus create patterns and associations. Thus, drinking coffee becomes associated with waking up. We don’t even have to think about the craving and reward component. The habit simply looks like:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}9.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}9.png"/>
 </center>
 
 As the association between cue and response strengthens, the craving and reward melt into the subconscious and it is less critical to consciously recognize the craving. After enough time, drinking coffee in the mornings is automatic. You even plan your coffee ahead of time before you have the craving.
@@ -187,7 +187,7 @@ As the habit forms, any conscious struggle over what to do about the craving fad
 With this in mind, let’s update the Habit Flywheel to incorporate the cue component, as well as the concept of strength of association between cue and response.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}10.png" style="width:60%"/>
+<img class="img60" src="{{ site.imageurl }}{{ page.image_root }}10.png"/>
 </center>
 
 ### Habit Formation
@@ -197,7 +197,7 @@ If all four of these elements – cue, craving, response, reward – are strong 
 We can illustrate the strength of a habit by the vibrancy of the arrows in the flywheel. For example, brushing teeth before bed is a strong habit for me with all components firing on all cylinders.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}11.png" style="width:60%"/>
+<img class="img60" src="{{ site.imageurl }}{{ page.image_root }}11.png"/>
 </center>
 
 Put simply, this habit is so strong because it all components of the flywheel are working with minimal friction and there is a fast feedback loop to reinforce the cycle.
@@ -215,7 +215,7 @@ Therefore, to form a habit, work on making these characteristics stronger. Simil
 Going back to my aspirational habit of running every morning, this is how that looks:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}12.png" style="width:60%"/>
+<img class="img60" src="{{ site.imageurl }}{{ page.image_root }}12.png"/>
 </center>
 
 Hmm. We can see now why forming this habit is difficult:
@@ -237,7 +237,7 @@ Hmm. We can see now why forming this habit is difficult:
 Since that first morning run of mine and now, it is no wonder I have failed in making this a habit.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}13.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}13.png"/>
 </center>
 
 ### Hacking your way to the Habit Flywheel
@@ -247,7 +247,7 @@ Now that we have a framework for habits, let’s break down how to climb the Lon
 Thankfully, forcing mechanisms are not just for starting something – they can also be used on a long-term basis. Now that we have a framework, we can be more precise on how exactly to best use these tactics.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}14.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}14.png"/>
 </center>
 
 The key is to make sure all elements of the Habit Flywheel are doing their part. Here are some ways to boost each element and form a strong habit:
@@ -291,13 +291,13 @@ Another helpful change was to reduce friction of the response. My workouts do no
 For some habits, the dynamics might be so strong that the flywheel does all the work once it is formed.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}15.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}15.png"/>
 </center>
 
 But for most other habits, the flywheel will be more wheel and less fly. The dynamics behind the habit might stay more conscious and need to be maintained. Our forcing mechanism friends may be necessary to keep around.
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}16.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}16.png"/>
 </center>
 
 For me, the habit of working out is in the latter category: it requires ongoing effort.
@@ -305,7 +305,7 @@ For me, the habit of working out is in the latter category: it requires ongoing 
 But it gets much easier over time. For all of 2020 thus far, I have achieved my goal with no two consecutive days of not working out:
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}17.png" style="width:100%"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}17.png"/>
 </center>
 
 And hopefully by posting this, it is another forcing mechanism to keep this habit flywheel going.
