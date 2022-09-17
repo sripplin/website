@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Source Serif Pro", serif, "Literata", "PT Sans", serif;
+  font-family: "Source Serif Pro", serif, "Literata", "PT Sans", serif;;
   font-weight: 300;
   text-align:justify;
 }
@@ -162,15 +162,44 @@ a.sidebar-nav-item:focus {
 
 
 /* Custom */
+
+/* Images */
+
+.img50 {
+  max-width: 50%;
+}
+.img60 {
+  max-width: 60%;
+}
+.img70 {
+  max-width: 70%;
+}
+.img80 {
+  max-width: 80%;
+}
+.img90 {
+  max-width: 90%;
+}
+.img100 {
+  max-width: 100%;
+}
+
+@media (min-width: 38em) {
+  .img50, .img60, .img70, .img80, .img90, .img100 {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  .img50, .img60, .img70, .img80, .img90, .img100 {
+    max-width: 100%;
+  }
+}
+
 .featured-image-post {
   width: 300px;
   max-width: 80%;
   height: 150px;
   object-fit: cover;
-}
-
-.excerpt {
-  margin:.5em;
 }
 
 .images p {
@@ -183,10 +212,11 @@ a.sidebar-nav-item:focus {
   color: #6e6e6f;
 }
 
-@media only screen and (max-device-width: 480px) {
-  img {
-    max-width: 100%;
-  }
+
+/* Post titles, metadata, exerpts */
+
+.excerpt {
+  margin:.5em;
 }
 
 .post-content, .page-content, .excerpt, .custom_excerpt {
