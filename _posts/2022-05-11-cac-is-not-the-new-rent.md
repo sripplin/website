@@ -41,13 +41,13 @@ Rent is also a fixed cost whereas CAC is typically more variable (it can have fi
 Lastly, rent and CAC aren’t even of a comparable magnitude. Rent as a percent of revenue for most businesses is quite small. For example, rent expense as a percentage of revenue for the S&P 500 is less than [2 percent](https://pdf.euro.savills.co.uk/usa/in-depth-reports/rent-cost.pdf).
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}rent_rev.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}rent_rev.png"/>
 </center>
 
 Meanwhile, marketing (as a proxy for CAC) as a percent of revenue is typically 10%+ and for CPG is well north of [20%](https://vtldesign.com/digital-marketing/content-marketing-strategy/percent-of-revenue-spent-on-marketing-sales/).
 
 <center>
-<img src="{{ site.imageurl }}{{ page.image_root }}mkt_rev.png" style="width:80%"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}mkt_rev.png"/>
 </center>
 
 CAC is not the new rent because they are fundamentally different concepts with different properties. It’s time to retire this cliché.
