@@ -184,7 +184,12 @@ a.sidebar-nav-item:focus {
   max-width: 100%;
 }
 
-@media (min-width: 38em) {
+@media (max-width: 480px) {
+  .img50, .img60, .img70, .img80, .img90, .img100 {
+    max-width: 100%;
+  }
+}
+@media (min-width: 48em) and (max-width: 58em) {
   .img50, .img60, .img70, .img80, .img90, .img100 {
     max-width: 100%;
   }
