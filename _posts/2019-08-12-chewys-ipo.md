@@ -13,7 +13,7 @@ custom_excerpt: Chewy, Inc., the pure-play online pet retailer, IPO’d on June 
 
 ### Key insights:
 
-**Customer acquisition likely peaked in 2018**, despite increasing marketing spend as Chewy hits the inflection point with new customer acquisition decelerating going forward.
+- **Customer acquisition likely peaked in 2018**, despite increasing marketing spend as Chewy hits the inflection point with new customer acquisition decelerating going forward.
 - **Chewy loses approximately 40% of new customers after one year**, stabilizing thereafter.
 - **Slowing, but still meaningful growth in active customers ahead**. Active customers is projected to grow by 27% in 2019 and 16% in 2020.
 - **Customer Acquisition Costs (“CAC”) of $65 in 2018 and Post-Acquisition Value (“PAV”) of approximately $300 per customer acquired.**

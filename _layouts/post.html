@@ -19,10 +19,10 @@ layout: default
     <p style="margin:.6em;"></p>
     {% include post_date_read_time.html %}
     &emsp; 
-    <span style="display:inline" class="post-date" title="Estimated read time">[
+    <span style="display:inline" class="post-date" title="Estimated read time"><i class="fa-regular fa-folder-open" style="color: #969696; opacity: 0.80"></i>
          {% capture category_name %}{{ page.category }}{% endcapture %}
          <a href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
-     ]</span>
+    </span>
   </div>
   <hr>
   </center>
