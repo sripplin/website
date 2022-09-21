@@ -39,10 +39,10 @@ title: Home
            {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
        </span>
        &emsp;
-       <span style="display:inline">[
+       <span style="display:inline" class="post-date"><i class="fa-regular fa-folder-open" style="color: #969696; opacity: 0.80"></i>
            {% capture category_name %}{{ post.category }}{% endcapture %}
            <a href="{{ site.url }}/category/{{ category_name }}">{{ category_name}}</a>
-       ]</span>
+      </span>
     </div>
   
   <!-- excerpt -->

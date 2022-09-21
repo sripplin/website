@@ -13,14 +13,16 @@ I decided on [Hyde](https://github.com/poole/hyde) as a nice, two-column theme. 
 
 Other themes I considered were [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) and [minimalist](https://github.com/BDHU/minimalist).
 
-I performed a lot of modifications including
-- colors
+I performed a lot of modifications including:
+- changing theme colors, font colors, link colors
 - font families
-- enabled font awesome
-- reducing font sizes
+- enabled font awesome for icons
+- optimized website for mobile, since this theme is quite old the sizing didn't translate well to mobile.
+  - optimized font sizes for web and mobile
+  - made images responsive to sizing for web and mobile
 - snippits on home page instead of full posts
-- added featured image to post previews on home page (toggled off)
-- added button to scroll [back to top](https://github.com/vfeskov/vanilla-back-to-top) for posts
+- added featured image to post previews on home page (though toggled off)
+- added button via javascript to scroll [back to top](https://github.com/vfeskov/vanilla-back-to-top) for posts
 
 ### Fonts
 
@@ -55,4 +57,4 @@ https://github.com/robertmartin8/ReasonableDeviations
 ## License
 Code for the website can be reproduced with attribution and without warranty, under the MIT license.
 
-Content is licensed under the Creative Commons.
+Content is copyright per <a href="/disclaimer">Disclaimer.</a>
