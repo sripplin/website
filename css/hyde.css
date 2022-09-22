@@ -34,7 +34,7 @@
 html {
   font-family: "Source Serif Pro", serif, "Literata", "PT Sans", serif;;
   font-weight: 300;
-  text-align:justify;
+  text-align: left;
 }
 
 @media (min-width: 38em) {
@@ -55,10 +55,9 @@ html {
 @media only screen and (max-device-width: 480px) {
   html {
     font-size: 19px;
-    text-align:left;
+    text-align: left;
   }
 }
-
 
 /*
  * Sidebar
@@ -200,6 +199,26 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.newsletter iframe {
+  max-width: 70%;
+}
+@media (max-width: 480px) {
+  .newsletter iframe {
+    max-width: 100%;
+  }
+}
+@media (min-width: 48em) and (max-width: 58em) {
+  .newsletter iframe {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  .newsletter iframe {
+    max-width: 100%;
+  }
+}
+
+
 .featured-image-post {
   width: 300px;
   max-width: 80%;
@@ -220,18 +239,27 @@ a.sidebar-nav-item:focus {
 
 /* Post titles, metadata, exerpts */
 
+.post-top {
+  text-align: center;
+}
+@media only screen and (max-device-width: 480px) {
+  .post-top {
+    text-align: left;
+  }
+}
+
 .excerpt {
   margin:.5em;
 }
 
 .post-content, .page-content, .excerpt, .custom_excerpt {
-  text-align:justify;
+  text-align: justify;
   line-height: 1.6em;
 }
 
 @media only screen and (max-device-width: 480px) {
   .post-content, .page-content, .excerpt, .custom_excerpt {
-    text-align:left;
+    text-align: left;
     line-height: 150%;
   }
 }
