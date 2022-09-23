@@ -287,3 +287,18 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .post-title a {
   color: #222222;
 }
+
+/* Dark Mode */
+body {
+  transition: background 0.5s ease-in, color 0.5s ease-in;
+}
+.dark {
+  color: #e3e3e3;
+  background: #0d0d0d;
+}
+.dark .page-title,
+.dark .post-title,
+.dark .post-title a,
+.dark .body h1, h2, h3, h4, h5, h6 {
+  color: #bcbcbc;
+}
