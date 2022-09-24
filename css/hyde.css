@@ -69,7 +69,7 @@ html {
 .sidebar {
   font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #181818;
 }
@@ -102,7 +102,7 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .sidebar-nav-item {
   display: block;
@@ -126,7 +126,7 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left:   1rem;
   }
 }
@@ -233,7 +233,7 @@ a.sidebar-nav-item:focus {
   top: -0.5rem;
   bottom: 0;
   font-size: 0.8rem;
-  color: #6e6e6f;
+  color: var(--main-subtitle-color);
 }
 
 
@@ -273,32 +273,17 @@ a.sidebar-nav-item:focus {
 
 /* Custom - Blue #1a3b82 */
 .theme-base-blue .sidebar {
-  background-color: #152a59;
+  background-color: var(--sidebar-background-color);
 }
 .theme-base-blue .related-posts li a:hover {
-  color: #1c6192;
+  color: var(--link-color);
 }
 .theme-base-blue .content a {
   text-decoration: none;
   border-bottom: 2px;
-  border-bottom-color: #1c6192;
+  border-bottom-color: var(--link-color);
 }
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
-  color: #222222;
-}
-
-/* Dark Mode */
-body {
-  transition: background 0.5s ease-in, color 0.5s ease-in;
-}
-.dark {
-  color: #e3e3e3;
-  background: #0d0d0d;
-}
-.dark .page-title,
-.dark .post-title,
-.dark .post-title a,
-.dark .body h1, h2, h3, h4, h5, h6 {
-  color: #bcbcbc;
+  color: var(--main-text-color);
 }
