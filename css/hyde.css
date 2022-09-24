@@ -287,27 +287,3 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .post-title a {
   color: #222222;
 }
-
-/* Dark Mode */
-@media (prefers-color-scheme: dark) and (max-device-width: 480px) {
-  body {
-    background-color: #222;
-    color: #d4d4d4;
-  }
-  .page h1, h2, h3, h4, h5, h6,
-  .post h1, h2, h3, h4, h5, h6,
-  .post-title-top,
-  .theme-base-blue .content h1, h2, h3, h4, h5, h6,
-  .images p,
-  .theme-base-blue .post-title a  {
-    color: #d4d4d4;
-  }
-  .theme-base-blue .related-posts li a:hover {
-    color: #38acff;
-  }
-  .theme-base-blue .content a {
-    text-decoration: none;
-    border-bottom: 2px;
-    border-bottom-color: #38acff;
-  }
-}
