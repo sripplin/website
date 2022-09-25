@@ -48,6 +48,7 @@ html, html[data-theme="light"] {
   --main-title-color: #313131;
   --main-subtitle-color: #6e6e6e;
   --main-postmeta-color: #969696;
+  --main-hr-border-color: #dadada;
   --sidebar-background-color: #152a59;
 }
 
@@ -58,7 +59,9 @@ html[data-theme="dark"] {
   --main-title-color: #313131;
   --main-subtitle-color: #bbbbbb;
   --main-postmeta-color: #969696;
-  --sidebar-background-color: hsl(240, 25%, 2%);
+  --main-hr-border-color: #3e3e3e;
+  --sidebar-background-color: rgb(21,42,89);
+  --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
 }
 
 
@@ -70,7 +73,8 @@ html[data-theme="dark"] {
       --main-title-color: #313131;
       --main-subtitle-color: #bbbbbb;
       --main-postmeta-color: #969696;
-      --sidebar-background-color: hsl(240, 25%, 2%);
+      --sidebar-background-color: rgb(21,42,89);
+      --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
     }
 
     html[data-theme="light"] {
@@ -82,6 +86,12 @@ html[data-theme="dark"] {
       --main-postmeta-color: #969696;
       --sidebar-background-color: #152a59;
   } 
+}
+
+.darkmode {
+  font-family: "Shadows Into Light";
+  font-size: 0.9rem;
+  letter-spacing: 1px;
 }
 
 html,
@@ -186,8 +196,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid var(--main-hr-border-color);
+  border-bottom: 1px solid var(--main-hr-border-color);
 }
 
 abbr {
