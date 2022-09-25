@@ -50,6 +50,7 @@ html, html[data-theme="light"] {
   --main-postmeta-color: #969696;
   --main-hr-border-color: #dadada;
   --sidebar-background-color: #152a59;
+  --sidebar-background-gradient: ;
 }
 
 html[data-theme="dark"] {
@@ -85,6 +86,7 @@ html[data-theme="dark"] {
       --main-subtitle-color: #6e6e6e;
       --main-postmeta-color: #969696;
       --sidebar-background-color: #152a59;
+      --sidebar-background-gradient: ;
   } 
 }
 
