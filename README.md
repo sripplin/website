@@ -23,6 +23,7 @@ I performed a lot of modifications including:
 - snippits on home page instead of full posts
 - added featured image to post previews on home page (though toggled off)
 - added button via javascript to scroll [back to top](https://github.com/vfeskov/vanilla-back-to-top) for posts
+- Added dark mode. Takes OS preference plus a toggle with persistance. [This](https://github.com/derekkedziora/jekyll-demo) repo was the biggest help.
 
 ### Fonts
 
