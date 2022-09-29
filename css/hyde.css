@@ -133,6 +133,8 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-dark-mode {
+  font-family: "Shadows Into Light";
+  letter-spacing: 1px;
   font-size: 0.9rem;
   margin-bottom: 0rem;
 }
