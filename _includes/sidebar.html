@@ -46,8 +46,10 @@
     </div>
     </nav>
 
-    <p style="font-size: 0.95rem; line-height:1.4">&copy Steven Ripplinger {{ site.time | date: '%Y' }}. All rights reserved. <a style="color: rgba(255,255,255,.5);" href="{{ site.url }}/disclaimer">Disclaimer.</a></p>
+    <p class="sidebar-disclaimer" style="font-size: 0.85rem; line-height:1.4">&copy Steven Ripplinger {{ site.time | date: '%Y' }}. All rights reserved. <a style="color: rgba(255,255,255,.5);" href="{{ site.url }}/disclaimer">Disclaimer.</a></p>
 
-    <center><p class="darkmode" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></p></center>
+    <div class="sidebar-dark-mode"> 
+    <center><p class="sidebar-dark-mode" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer"></p></center>
+    </div>
   </div>
 </div>

@@ -132,6 +132,21 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.sidebar-dark-mode {
+  font-size: 0.9rem;
+  margin-bottom: 0rem;
+}
+@media (min-width: 48em) {
+  .sidebar-dark-mode {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .sidebar-dark-mode p {
+    margin-bottom: 0.5rem !important;
+  }
+}
 
 /* Container
  *

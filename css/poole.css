@@ -96,12 +96,6 @@ html[data-theme="dark"] {
   } 
 }
 
-.darkmode {
-  font-family: "Shadows Into Light";
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-}
-
 html,
 body {
   margin: 0;
@@ -179,7 +173,6 @@ p {
 /* strong {
   color: #303030;
 } */
-
 
 /* Lists */
 ul, ol, dl {
