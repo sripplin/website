@@ -47,25 +47,31 @@ layout: default
     {% assign nRelated = 3 | minus: nSameTag %}
     {% for post in site.categories[page.category] limit:4 %}
         {% unless post.url == page.url %}
-            <li>
-              <h4>
-                <a href="{{site.url}}{{ post.url }}">
-                  {{ post.title }}
-                  <small>{{ post.date | date: "%Y-%m-%d"  }}</small>
-                </a>
+            <li style="margin-bottom: 0.5rem;line-height: 120%;">
+              <h4 style="display: inline">
+                <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
               </h4>
+              <span style="display: inline;" class="post-date">
+                {%- if post.subtitle and post.category == "musings" -%}
+                      <small>&raquo;</small> <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
+                {%- endif -%}
+                <small style="color:var(--main-text-color);"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</small>
+              </span>
             </li>
         {% endunless %}
     {% endfor %}
     
     {% for post in site.related_posts limit:nRelated %}
-      <li>
-        <h4>
-          <a href="{{site.url}}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date: "%Y-%m-%d"  }}</small>
-          </a>
+      <li style="margin-bottom: 0.5rem;line-height: 120%;">
+        <h4 style="display: inline">
+          <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
         </h4>
+        <span style="display: inline" class="post-date">
+          {%- if post.subtitle and post.category == "musings" -%}
+                <small>&raquo;</small> <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
+          {%- endif -%}
+          <small style="color:var(--main-text-color);"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</small>
+        </span>
       </li>
     {% endfor %}
   </ul>
