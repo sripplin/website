@@ -23,7 +23,7 @@ Here is the C3 chart:
 
 On the surface, it looks compelling - the cohorts are increasing modestly over time providing a growing base of revenue.
 
-But there a lot missing from this chart.
+But there is a lot missing from this chart.
 
 ## Contents <!-- omit in toc -->
 
