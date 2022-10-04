@@ -32,14 +32,14 @@
  */
 
 html {
-  font-family: "Source Serif Pro", serif, "Literata", "PT Sans", serif;
+  font-family: "IBM Plex Sans", sans-serif, "Roboto", sans-serif, "Montserrat", sans-serif, "PT Sans", "Arial", sans-serif;
   font-weight: 300;
   text-align: left;
 }
 
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

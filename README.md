@@ -31,20 +31,8 @@ I performed a lot of modifications including:
 ### Color
 
 I'm a big fan of blue so went with a nice navy shade.
-Also made it so headers are a similar color.
 
-Now my css theme looks like this:
-```
-/* Custom - Blue */
-.theme-base-blue .sidebar {
-  background-color: #152a59;
-}
-.theme-base-blue .content a,
-.theme-base-blue h1, h2, h3, h4, h5, h6,
-.theme-base-blue .related-posts li a:hover {
-  color: #184a99;
-}
-```
+
 
 ## Other Notes
 I also had to deal with 301 redirects
