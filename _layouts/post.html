@@ -47,7 +47,7 @@ layout: default
     {% assign nRelated = 3 | minus: nSameTag %}
     {% for post in site.categories[page.category] limit:4 %}
         {% unless post.url == page.url %}
-            <li style="margin-bottom: 0.5rem;line-height: 120%;">
+            <li style="margin-bottom: 0.7rem;line-height: 120%;">
               <h4 style="display: inline">
                 <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
               </h4>
@@ -62,7 +62,7 @@ layout: default
     {% endfor %}
     
     {% for post in site.related_posts limit:nRelated %}
-      <li style="margin-bottom: 0.5rem;line-height: 120%;">
+      <li style="margin-bottom: 0.7rem;line-height: 120%;">
         <h4 style="display: inline">
           <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
         </h4>
