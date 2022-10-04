@@ -282,6 +282,10 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.post-content {
+  font-size: 0.9rem;
+}
+
 .excerpt {
   font-size: 0.85rem;
   margin-top: -0.7rem;
