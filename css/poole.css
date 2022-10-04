@@ -427,8 +427,8 @@ tbody tr:nth-child(odd) th {
   display: block;
   font-size: 1.05rem;
   line-height: 120%;
-  margin-top: -0.4rem;
-  margin-bottom: -0.2rem;
+  margin-top: -0.3rem;
+  margin-bottom: 0.4rem;
   color: var(--main-subtitle-color);
 }
 .post-date {
@@ -447,7 +447,8 @@ tbody tr:nth-child(odd) th {
 }
 .post-meta {
   font-size: 0.8rem;
-  margin-top:.7em;
+  margin-top:-0.1em;
+  margin-bottom:0.1em;
 }
 
 /* Related posts */
