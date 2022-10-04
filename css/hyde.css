@@ -270,24 +270,22 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.post-content, .page-content, .excerpt, .custom_excerpt {
+.post-content, .page-content, .excerpt, .custom_excerpt, .newsletter {
   text-align: justify;
   line-height: 1.6em;
-}
-
-@media only screen and (max-device-width: 480px) {
-  .post-content, .page-content, .excerpt, .custom_excerpt {
-    text-align: left;
-    line-height: 150%;
-  }
-}
-
-.post-content {
   font-size: 0.9rem;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .post-content, .page-content, .excerpt, .custom_excerpt, .newsletter {
+    text-align: left;
+    line-height: 150%;
+    font-size: 0.95rem;
+  }
+}
+
 .excerpt {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-top: -0.7rem;
 }
 
