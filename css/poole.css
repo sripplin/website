@@ -425,7 +425,8 @@ tbody tr:nth-child(odd) th {
 
 .post-subtitle {
   display: block;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  line-height: 120%;
   margin-top: -0.4rem;
   margin-bottom: -0.2rem;
   color: var(--main-subtitle-color);
@@ -446,6 +447,7 @@ tbody tr:nth-child(odd) th {
 }
 .post-meta {
   font-size: 0.8rem;
+  margin-top:.7em;
 }
 
 /* Related posts */

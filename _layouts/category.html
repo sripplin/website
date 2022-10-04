@@ -21,7 +21,7 @@ layout: default
 
     <!-- Metadata -->
     <div class="post-meta">
-      <p style="margin:.7em;"></p>
+      <p>
       <span style="display: inline" class="post-date" title="Estimated read time">
           {{ post.date | date: "%B %-d, %Y" }} &middot; 
            {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
@@ -31,16 +31,17 @@ layout: default
            {% capture category_name %}{{ post.category }}{% endcapture %}
            <a style="color:#969696" href="{{ site.url }}/category/{{ category_name }}">{{ category_name}}</a>
       </span>
+      </p>
     </div>
-  
-  <!-- excerpt -->
-  {%- if post.custom_excerpt -%}
-    <p style="margin:.5em;"></p>
-    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
-  {%- else -%}
-    <p style="margin:.5em;"></p>
-    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
-  {%- endif -%}
+
+    <!-- excerpt -->
+    <p class='excerpt'>
+      {%- if post.custom_excerpt -%}
+        {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
+      {%- else -%}
+        {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
+      {%- endif -%}
+    </p>
 
   </div>
   {% endfor %}

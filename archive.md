@@ -12,9 +12,9 @@ title: Post Archive
       <small style="color:var(--main-subtitle-color);">
       &raquo; 
       {% capture category_name %}{{ post.category }}{% endcapture %}<a style="white-space: nowrap; color: var(--main-subtitle-color);" href="{{site.url}}/category/{{ category_name }}"><i class="fa-regular fa-folder-open" style="color: var(--main-subtitle-color); opacity: 0.80;"></i> {{ category_name }}</a>
-      &raquo; {{ post.date | date: "%Y-%m-%d" }} 
-      &raquo; {% assign words = post.content | strip_html | number_of_words %}
-      {{ words | divided_by:200 | at_most:25 }} min
+      &raquo; <span style="white-space: nowrap;"> {{ post.date | date: "%Y-%m-%d" }}</span>
+      &raquo; <span style="white-space: nowrap;"> {% assign words = post.content | strip_html | number_of_words %}
+      {{ words | divided_by:200 | at_most:25 }} min</span>
       </small>
     </span>
 {% endfor %}
