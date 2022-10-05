@@ -41,7 +41,7 @@ layout: default
 
 <!-- Related -->
 <div class="related">
-  <h2>Related Posts</h2>
+  <h2 style="margin-bottom:0.7rem;">Related Posts</h2>
   <ul class="related-posts">
     {% assign nSameTag = site.categories[page.category].size | minus: 1 %}
     {% assign nRelated = 3 | minus: nSameTag %}
@@ -51,12 +51,12 @@ layout: default
               <h4 style="display: inline">
                 <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
               </h4>
-              <span style="display: inline;" class="post-date">
+              <span style="display: inline; font-size: 0.9rem;" class="post-subtitle-related">
                 {%- if post.subtitle and post.category == "musings" -%}
-                      <small style="color:var(--main-text-color);">&raquo;</small> <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
+                  &raquo; <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
                 {%- endif -%}
-                <small style="color:var(--main-text-color);"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</small>
               </span>
+                <span style="display: inline; color:var(--main-text-color);" class="post-date"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</span>
             </li>
         {% endunless %}
     {% endfor %}
@@ -66,12 +66,12 @@ layout: default
         <h4 style="display: inline">
           <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
         </h4>
-        <span style="display: inline" class="post-date">
+        <span style="display: inline; font-size: 0.9rem;" class="post-subtitle-related">
           {%- if post.subtitle and post.category == "musings" -%}
-                <small style="color:var(--main-text-color);">&raquo;</small> <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
+            &raquo; <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
           {%- endif -%}
-          <small style="color:var(--main-text-color);"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</small>
         </span>
+          <span style="display: inline; color:var(--main-text-color);" class="post-date"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</span>
       </li>
     {% endfor %}
   </ul>
