@@ -63,7 +63,7 @@ html[data-theme="dark"] {
   --main-subtitle-color: #bbbbbb;
   --main-postmeta-color: #969696;
   --main-hr-border-color: #3e3e3e;
-  --main-font-weight: 200;
+  --main-font-weight: 250;
   --sidebar-color: rgba(255,255,255,.5);
   --sidebar-background-color: rgb(21,42,89);
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
@@ -79,7 +79,7 @@ html[data-theme="dark"] {
       --main-subtitle-color: #bbbbbb;
       --main-postmeta-color: #969696;
       --main-hr-border-color: #3e3e3e;
-      --main-font-weight: 200;
+      --main-font-weight: 250;
       --sidebar-color: rgba(255,255,255,.5);
       --sidebar-background-color: rgb(21,42,89);
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
@@ -141,17 +141,19 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
   color: var(--main-title-color);
   text-rendering: antialiased;
 }
 h1 {
   font-size: 1.5rem;
+  font-weight: 600;
 }
 h2 {
   margin-top: 1rem;
   font-size: 1.25rem;
+  font-weight: 600;
 }
 h3 {
   margin-top: 1rem;
@@ -409,6 +411,7 @@ tbody tr:nth-child(odd) th {
 }
 .page-title,
 .post-title {
+  font-size: 1.3rem;
   text-align: left;
   line-height: 1.2;
   margin-top: 0;
@@ -425,7 +428,7 @@ tbody tr:nth-child(odd) th {
 
 .post-subtitle {
   display: block;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   line-height: 120%;
   margin-top: -0.3rem;
   margin-bottom: 0.4rem;
