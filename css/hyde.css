@@ -33,7 +33,7 @@
 
 html {
   font-family: "IBM Plex Sans", sans-serif, "Roboto", sans-serif, "Montserrat", sans-serif, "PT Sans", "Arial", sans-serif;
-  font-weight: 300;
+  font-weight: var(--main-font-weight);
   text-align: left;
 }
 
@@ -67,7 +67,7 @@ html {
 }
 @media (min-width: 38em) {
   .sidebar {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 @media (min-width: 48em) {
@@ -76,7 +76,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 18.5rem;
     font-size: 17px;
     text-align: left;
   }
@@ -110,7 +110,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -153,7 +153,7 @@ a.sidebar-nav-item:focus {
     line-height: 1.3;
   }
   .sidebar-nav-item {
-    line-height: 1.5;
+    line-height: 1.7;
   }
 }
 
@@ -171,7 +171,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 40rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -179,7 +179,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 23rem;
     margin-right: 4rem;
   }
 }
@@ -286,7 +286,7 @@ a.sidebar-nav-item:focus {
 }
 
 .excerpt {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin-top: -0.7rem;
 }
 
