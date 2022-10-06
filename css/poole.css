@@ -47,7 +47,7 @@ html, html[data-theme="light"] {
   --main-text-color: hsl(0, 0%, 20%);
   --main-title-color: #313131;
   --main-subtitle-color: #6e6e6e;
-  --main-postmeta-color: #969696;
+  --main-postmeta-color: #717171;
   --main-hr-border-color: #dadada;
   --main-font-weight: 325;
   --sidebar-color: rgba(255,255,255,.5);
@@ -91,7 +91,7 @@ html[data-theme="dark"] {
       --main-text-color: hsl(0, 0%, 20%);
       --main-title-color: #313131;
       --main-subtitle-color: #6e6e6e;
-      --main-postmeta-color: #969696;
+      --main-postmeta-color: #717171;
       --main-hr-border-color: #dadada;
       --main-font-weight: 325;
       --sidebar-color: rgba(255,255,255,.5);
