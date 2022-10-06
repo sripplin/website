@@ -20,9 +20,9 @@ layout: default
     <p style="margin:.6em;"></p>
     {% include post_date_read_time.html %}
     &emsp; 
-    <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color: #969696; opacity: 0.80"></i>
+    <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
          {% capture category_name %}{{ page.category }}{% endcapture %}
-         <a style="color:#969696" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
+         <a style="color:var(--main-postmeta-color)" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
     </span>
   </div>
   <hr>
