@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "IBM Plex Sans", sans-serif, "Roboto", sans-serif, "Montserrat", sans-serif, "PT Sans", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif, "Arial", sans-serif;
   font-weight: var(--main-font-weight);
   text-align: left;
 }
@@ -98,7 +98,7 @@ html {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0.3rem;
-  font-family: "Domine", serif;
+  font-family: "Playfair+Display", serif;
   font-weight: 600;
   line-height: 1.25;
   font-size: 1.9rem;
