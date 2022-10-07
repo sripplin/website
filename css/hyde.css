@@ -81,6 +81,7 @@ html {
     text-align: left;
   }
 }
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .sidebar {
     position: relative;
@@ -179,7 +180,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 23rem;
+    margin-left: 25rem;
     margin-right: 4rem;
   }
 }
@@ -273,15 +274,19 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.post-content, .page-content, .excerpt, .custom_excerpt, .newsletter {
-  text-align: justify;
+.excerpt {
   line-height: 1.6em;
+}
+
+.post-content, .page-content, .custom_excerpt, .newsletter {
+  text-align: justify;
+  line-height: 1.65em;
 }
 
 @media only screen and (max-device-width: 480px) {
   .post-content, .page-content, .excerpt, .custom_excerpt, .newsletter {
     text-align: left;
-    line-height: 150%;
+    line-height: 155%;
   }
 }
 
