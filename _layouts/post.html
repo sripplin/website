@@ -4,28 +4,29 @@ layout: default
 
 <div class="post">
   <div class="post-top">
-
-  <!-- Title -->
-  <h1 class="post-title-top">{{ page.title }}</h1>
-  <!-- Subtitle -->
-  {%- if page.subtitle -%}
-    <div>
-      <span class="post-subtitle" title="Subtitle">
-        {{page.subtitle}}
+    
+    <!-- Title -->
+    <h1 class="post-title-top">{{ page.title }}</h1>
+    <!-- Subtitle -->
+    {%- if page.subtitle -%}
+      <div>
+        <span class="post-subtitle" title="Subtitle">
+          {{page.subtitle}}
+        </span>
+      </div>
+    {%- endif -%}
+    
+    <!-- Metadata -->
+    <div class="post-meta">
+      <p style="margin:.6em;"></p>
+      {% include post_date_read_time.html %}
+      &emsp; 
+      <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
+          {% capture category_name %}{{ page.category }}{% endcapture %}
+          <a style="color:var(--main-postmeta-color)" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
       </span>
     </div>
-  {%- endif -%}
-  <!-- Metadata -->
-  <div class="post-meta">
-    <p style="margin:.6em;"></p>
-    {% include post_date_read_time.html %}
-    &emsp; 
-    <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
-         {% capture category_name %}{{ page.category }}{% endcapture %}
-         <a style="color:var(--main-postmeta-color)" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
-    </span>
-  </div>
-  <hr>
+    <hr>
   </div>
   
   <!-- Content -->

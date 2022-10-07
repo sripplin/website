@@ -49,7 +49,7 @@ html, html[data-theme="light"] {
   --main-subtitle-color: #6e6e6e;
   --main-postmeta-color: #717171;
   --main-hr-border-color: #dadada;
-  --main-font-weight: 325;
+  --main-font-weight: 350;
   --sidebar-color: rgba(255,255,255,.5);
   --sidebar-background-color: #152a59;
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgb(21, 43, 91) 46%, rgba(21,42,89,1) 100%);
@@ -63,7 +63,7 @@ html[data-theme="dark"] {
   --main-subtitle-color: #bbbbbb;
   --main-postmeta-color: #969696;
   --main-hr-border-color: #3e3e3e;
-  --main-font-weight: 250;
+  --main-font-weight: 300;
   --sidebar-color: rgba(255,255,255,.5);
   --sidebar-background-color: rgb(21,42,89);
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
@@ -79,7 +79,7 @@ html[data-theme="dark"] {
       --main-subtitle-color: #bbbbbb;
       --main-postmeta-color: #969696;
       --main-hr-border-color: #3e3e3e;
-      --main-font-weight: 250;
+      --main-font-weight: 300;
       --sidebar-color: rgba(255,255,255,.5);
       --sidebar-background-color: rgb(21,42,89);
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
@@ -93,11 +93,24 @@ html[data-theme="dark"] {
       --main-subtitle-color: #6e6e6e;
       --main-postmeta-color: #717171;
       --main-hr-border-color: #dadada;
-      --main-font-weight: 325;
+      --main-font-weight: 350;
       --sidebar-color: rgba(255,255,255,.5);
       --sidebar-background-color: #152a59;
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgb(21, 43, 91) 46%, rgba(21,42,89,1) 100%);
   } }
+
+
+@media only screen and (max-device-width: 480px) {
+  html, html[data-theme="light"] {
+    --main-font-weight: 400;
+  }
+}
+  
+@media only screen and (max-device-width: 480px) and (prefers-color-scheme: dark) {
+  html[data-theme="light"] {
+    --main-font-weight: 4000;
+  }
+}
 
 html,
 body {
@@ -108,7 +121,7 @@ body {
 html {
   font-family: "Roboto", sans-serif, "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 @media (min-width: 38em) {
   html {
