@@ -280,21 +280,24 @@ a.sidebar-nav-item:focus {
   .post-top {
     text-align: left;
   }
+  .post-title-top h1 {
+    margin-top: -0.2rem;
+  }
 }
 
 .excerpt, .custom_excerpt {
-  line-height: 1.6em;
+  line-height: 1.6;
 }
 
 .post-content, .page-content, .newsletter {
   text-align: justify;
-  line-height: 1.65em;
+  line-height: 1.65;
 }
 
 @media only screen and (max-device-width: 480px) {
   .post-content, .page-content, .newsletter {
     text-align: left;
-    line-height: 1.65;
+    line-height: 1.7;
   }
 }
 
