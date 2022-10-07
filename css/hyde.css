@@ -82,6 +82,14 @@ html {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .sidebar {
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .sidebar {
     position: relative;
@@ -274,19 +282,19 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.excerpt {
+.excerpt, .custom_excerpt {
   line-height: 1.6em;
 }
 
-.post-content, .page-content, .custom_excerpt, .newsletter {
+.post-content, .page-content, .newsletter {
   text-align: justify;
   line-height: 1.65em;
 }
 
 @media only screen and (max-device-width: 480px) {
-  .post-content, .page-content, .excerpt, .custom_excerpt, .newsletter {
+  .post-content, .page-content, .newsletter {
     text-align: left;
-    line-height: 155%;
+    line-height: 1.65;
   }
 }
 
@@ -297,7 +305,7 @@ a.sidebar-nav-item:focus {
 
 .footnotes p {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 /* Themes */
