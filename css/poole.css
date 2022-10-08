@@ -50,6 +50,7 @@ html, html[data-theme="light"] {
   --main-postmeta-color: #717171;
   --main-hr-border-color: #dadada;
   --main-font-weight: 350;
+  --main-font-weight-subtitle: 300;
   --sidebar-color: rgba(255,255,255,.5);
   --sidebar-background-color: #152a59;
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgb(21, 43, 91) 46%, rgba(21,42,89,1) 100%);
@@ -64,6 +65,7 @@ html[data-theme="dark"] {
   --main-postmeta-color: #969696;
   --main-hr-border-color: #3e3e3e;
   --main-font-weight: 300;
+  --main-font-weight-subtitle: 300;
   --sidebar-color: rgba(255,255,255,.5);
   --sidebar-background-color: rgb(21,42,89);
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
@@ -80,6 +82,7 @@ html[data-theme="dark"] {
       --main-postmeta-color: #969696;
       --main-hr-border-color: #3e3e3e;
       --main-font-weight: 300;
+      --main-font-weight-subtitle: 300;
       --sidebar-color: rgba(255,255,255,.5);
       --sidebar-background-color: rgb(21,42,89);
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
@@ -94,6 +97,7 @@ html[data-theme="dark"] {
       --main-postmeta-color: #717171;
       --main-hr-border-color: #dadada;
       --main-font-weight: 350;
+      --main-font-weight-subtitle: 300;
       --sidebar-color: rgba(255,255,255,.5);
       --sidebar-background-color: #152a59;
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgb(21, 43, 91) 46%, rgba(21,42,89,1) 100%);
@@ -113,6 +117,7 @@ html[data-theme="dark"] {
     --main-text-color: hsl(0, 0%, 30%);
   }
 }
+
 
 html,
 body {
@@ -441,6 +446,7 @@ tbody tr:nth-child(odd) th {
 .post-subtitle {
   display: block;
   font-size: 1.1rem;
+  font-weight: var(--main-font-weight-subtitle);
   line-height: 120%;
   margin-top: -0.3rem;
   margin-bottom: 0.4rem;
@@ -449,6 +455,7 @@ tbody tr:nth-child(odd) th {
 .post-date {
   display: block;
   font-size: 0.8rem;
+  font-weight: var(--main-font-weight-subtitle);
   margin-top: -0.3rem;
   margin-bottom: 0.8rem;
   color: var(--main-postmeta-color);
