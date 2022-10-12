@@ -149,7 +149,7 @@ a {
   text-decoration: none;
 }
 a strong {
-  color: inherit;
+  color: var(--link-color);
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
@@ -173,7 +173,7 @@ h2 {
   font-size: 1.25rem;
 }
 h3 {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   font-size: 1.05rem;
 }
 h4 {
