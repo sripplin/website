@@ -42,7 +42,7 @@
 }
 
 html, html[data-theme="light"] {
-	--link-color: #307cd2;
+  --link-color: #307cd2;
   --main-background-color: hsl(0, 0%, 100%);
   --main-text-color: hsl(0, 0%, 20%);
   --main-title-color: #313131;
@@ -169,11 +169,11 @@ h1 {
   font-size: 1.5rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
   font-size: 1.25rem;
 }
 h3 {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
   font-size: 1.05rem;
 }
 h4 {
@@ -198,14 +198,19 @@ p {
 } */
 
 /* Lists */
+
+li:not(:last-child) { 
+  margin-bottom: 0.3rem;  
+}
+
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
-  line-height: 140%;
+  line-height: 160%;
 }
 
 ul li ul  { 
-  margin-bottom: 0;
+  margin-bottom: 0rem;
   line-height: 140%;
 }
 
@@ -317,7 +322,7 @@ blockquote p:last-child {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  margin: 0 0 1.7rem;
   border-radius: 5px;
 }
 

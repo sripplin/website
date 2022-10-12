@@ -50,9 +50,9 @@ This is a distinct point because reality is more than a single continuum; the ma
 
 Looking back on my investment career, most of my best decisions were “the market thinks this is a good business, but I think it is even better”, and not “everyone hates this stock but they’re wrong”. There are a few reasons why the former is better:
 
-**a) The market is already primed to like the stock.** Current investors just need to continue to like it (easy to do since already convinced) or like it more. New investors are easily persuaded since it is easy to find external validation. It is more attractive and validating to show up to a club with a line-up out the door than a house party with two people and a cat.
+* **The market is already primed to like the stock.** Current investors just need to continue to like it (easy to do since already convinced) or like it more. New investors are easily persuaded since it is easy to find external validation. It is more attractive and validating to show up to a club with a line-up out the door than a house party with two people and a cat.
 
-**b) Momentum flywheel.** A good business tends to do better over time (launch better products, acquire more customers, improve retention, raise more capital, attract better employees, etc.), which has a compounding effect, whereas a bad business has the opposite effect.
+* **Momentum flywheel.** A good business tends to do better over time (launch better products, acquire more customers, improve retention, raise more capital, attract better employees, etc.), which has a compounding effect, whereas a bad business has the opposite effect.
 
 So why is there so much focus on contrarianism in the investment world? There is certainly some ego involved and it is intellectually more satisfying to be right when others are wrong. There is also a belief that if the consensus flips from positive to negative or the reverse, there will be big swings in the stock. That sounds great in theory, and certainly does happen, but it is not only difficult to find contrarian ideas, it often takes more than you expect for the consensus view to flip (narratives are difficult to change, there is often a large overhang of underwater investors looking to get out “when it comes back”, etc.).
 
