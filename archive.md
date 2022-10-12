@@ -4,7 +4,7 @@ title: Post Archive
 ---
 
 {% for post in site.posts %}
-  * <span class="post-subtitle" style="display: inline; font-size:1rem; line-height: 110%;">[ **{{ post.title }}** ]({{ site.url }}{{ post.url }})</span>
+  * <span class="post-subtitle" style="display: inline; font-size:1rem; line-height: 110%; color:var(--link-color);">[ **{{ post.title }}** ]({{ site.url }}{{ post.url }})</span>
     <span class="post-subtitle" style="display: inline; color:var(--main-subtitle-color);">
       {%- if post.subtitle and post.category == "musings" -%}
         <span class="post-meta"> &raquo; </span>
