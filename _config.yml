@@ -1,5 +1,5 @@
 # Dependencies
-plugins:          [jekyll-paginate]
+plugins:          [jekyll-paginate, jekyll-redirect-from]
 
 # Features
 excerpt_separator: <!--more-->

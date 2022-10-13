@@ -30,12 +30,10 @@ I performed a lot of modifications including:
 
 ### Color
 
-I'm a big fan of blue so went with a nice navy shade.
-
-
+I'm a big fan of blue so went with a nice navy shade. The sidebar looked a little plain so I added a diagonal gradient.
 
 ## Other Notes
-I also had to deal with 301 redirects
+I also had to deal with 301 redirects with this [solution](https://github.com/jekyll/jekyll-redirect-from).
 
 Pointing domain name was relatively easy.
 
