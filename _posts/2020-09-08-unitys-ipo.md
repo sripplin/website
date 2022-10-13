@@ -6,6 +6,7 @@ category: customer_analytics
 image_featured: c3_full.png
 image_root: unitys_ipo/
 postdisclaimer: true
+redirect_from: /posts/unitys-ipo
 ---
 
 Unity Software Inc. recently filed its S-1 in advance of going public. Unity is the maker of a real-time 3D game engine that powers many 3D games and other content across numerous sectors. In this post, I focus on an under-discussed part of its IPO disclosure: its customer analytics.
