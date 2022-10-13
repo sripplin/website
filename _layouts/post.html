@@ -62,18 +62,20 @@ layout: default
         {% endunless %}
     {% endfor %}
     
-    {% for post in site.related_posts limit:nRelated %}
-      <li style="margin-bottom: 0.7rem;line-height: 120%;">
-        <h4 style="display: inline">
-          <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
-        </h4>
-        <span style="display: inline; font-size: 0.9rem;" class="post-subtitle-related">
-          {%- if post.subtitle and post.category == "musings" -%}
-            &raquo; <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
-          {%- endif -%}
-        </span>
-          <span style="display: inline; color:var(--main-text-color);" class="post-date"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</span>
-      </li>
+    {% for post in site.related_posts limit:3%}
+      {% if post.category != page.category %}
+        <li style="margin-bottom: 0.7rem;line-height: 120%;">
+          <h4 style="display: inline">
+            <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+          </h4>
+          <span style="display: inline; font-size: 0.9rem;" class="post-subtitle-related">
+            {%- if post.subtitle and post.category == "musings" -%}
+              &raquo; <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
+            {%- endif -%}
+          </span>
+            <span style="display: inline; color:var(--main-text-color);" class="post-date"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</span>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
