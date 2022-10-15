@@ -1,5 +1,5 @@
 # steveripplinger.com
-This is my website repo for https://wwww.steveripplinger.com
+This is my website repo for https://www.steveripplinger.com
 
 
 ## Intro
