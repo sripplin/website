@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Post Archive
+redirect_from: /all-posts
 ---
 
 {% for post in site.posts %}
