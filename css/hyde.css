@@ -335,4 +335,5 @@ a.sidebar-nav-item:focus {
 }
 .post-meta a, .post-subtitle a {
   text-decoration: none !important;
+  font-weight: var(--main-font-weight-subtitle);
 }
