@@ -331,7 +331,7 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
-  color: var(--main-text-color);
+  color: var(--main-title-color);
   text-decoration: none;
 }
 .post-meta a, .post-subtitle a {
