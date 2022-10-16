@@ -5,6 +5,7 @@ subtitle:
 category: investing
 image_featured: 2x2framework.png
 image_root: intensity_delta/
+custom_excerpt: There is a common saying in investing that it is not enough to be right; you need to be contrarian and right. Having a consensus opinion, even if it ends up being right, supposedly means that the asset is efficiently priced and excess profits are arbitraged away.
 postdisclaimer: 
 redirect_from: /posts/intensity-delta
 ---
