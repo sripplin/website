@@ -112,9 +112,9 @@ html[data-theme="dark"] {
 }
   
 @media only screen and (max-device-width: 480px) and (prefers-color-scheme: dark) {
-  html[data-theme="light"] {
+  html[data-theme="dark"] {
     --main-font-weight: 400;
-    --main-text-color: hsl(0, 0%, 30%);
+    --main-text-color: hsl(0, 0%, 85%);
   }
 }
 
@@ -474,6 +474,7 @@ tbody tr:nth-child(odd) th {
 }
 .post-meta {
   font-size: 0.8rem;
+  font-weight: var(--main-font-weight-subtitle);
   margin-top:-0.1em;
   margin-bottom:0.1em;
 }
