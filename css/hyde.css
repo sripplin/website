@@ -337,8 +337,3 @@ a.sidebar-nav-item:focus {
   font-weight: var(--main-font-weight-subtitle);
   text-decoration: none !important;
 }
-.theme-base-blue .post-title h1,
-.theme-base-blue .post-title h2,
-.theme-base-blue p {
-  color: var(--main-text-color) !important;
-}
