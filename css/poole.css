@@ -60,7 +60,7 @@ html[data-theme="dark"] {
   --link-color: #67BDFC;
   --main-background-color: hsl(0, 0%, 10%);
   --main-text-color: hsl(0, 0%, 85%);
-  --main-title-color: hsl(0, 0%, 85%);
+  --main-title-color: hsl(0, 0%, 95%);
   --main-subtitle-color: #bbbbbb;
   --main-postmeta-color: #969696;
   --main-hr-border-color: #3e3e3e;
@@ -77,7 +77,7 @@ html[data-theme="dark"] {
       --link-color: #67BDFC;
       --main-background-color: hsl(0, 0%, 10%);
       --main-text-color: hsl(0, 0%, 85%);
-      --main-title-color: hsl(0, 0%, 85%);
+      --main-title-color: hsl(0, 0%, 95%);
       --main-subtitle-color: #bbbbbb;
       --main-postmeta-color: #969696;
       --main-hr-border-color: #3e3e3e;
