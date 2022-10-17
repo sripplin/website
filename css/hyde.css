@@ -329,6 +329,10 @@ a.sidebar-nav-item:focus {
   border-bottom: 2px;
   border-bottom-color: var(--link-color);
 }
+.theme-base-blue .content p,
+.theme-base-blue .excerpt {
+  color: var(--main-text-color);
+}
 .theme-base-blue .content h1, h2, h3, h4, h5, h6,
 .theme-base-blue .post-title a {
   color: var(--main-title-color);
