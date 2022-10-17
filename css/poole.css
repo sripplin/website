@@ -60,7 +60,7 @@ html[data-theme="dark"] {
   --link-color: #67BDFC;
   --main-background-color: hsl(0, 0%, 10%);
   --main-text-color: hsl(0, 0%, 85%);
-  --main-title-color: hsl(0, 0%, 95%);
+  --main-title-color: hsl(0, 0%, 93%);
   --main-subtitle-color: #bbbbbb;
   --main-postmeta-color: #969696;
   --main-hr-border-color: #3e3e3e;
@@ -77,7 +77,7 @@ html[data-theme="dark"] {
       --link-color: #67BDFC;
       --main-background-color: hsl(0, 0%, 10%);
       --main-text-color: hsl(0, 0%, 85%);
-      --main-title-color: hsl(0, 0%, 95%);
+      --main-title-color: hsl(0, 0%, 93%);
       --main-subtitle-color: #bbbbbb;
       --main-postmeta-color: #969696;
       --main-hr-border-color: #3e3e3e;
@@ -107,14 +107,12 @@ html[data-theme="dark"] {
 @media only screen and (max-device-width: 480px) {
   html, html[data-theme="light"] {
     --main-font-weight: 400;
-    --main-text-color: hsl(0, 0%, 30%);
   }
 }
   
 @media only screen and (max-device-width: 480px) and (prefers-color-scheme: dark) {
   html[data-theme="dark"] {
     --main-font-weight: 400;
-    --main-text-color: hsl(0, 0%, 85%);
   }
 }
 
