@@ -59,7 +59,7 @@ html, html[data-theme="light"] {
 html[data-theme="dark"] {
   --link-color: #67BDFC;
   --main-background-color: hsl(0, 0%, 10%);
-  --main-text-color: hsl(0, 0%, 88%);
+  --main-text-color: hsl(0, 0%, 83%);
   --main-title-color: hsl(0, 0%, 93%);
   --main-subtitle-color: hsl(0, 0%, 80%);
   --main-postmeta-color: hsl(0, 0%, 59%);
@@ -76,7 +76,7 @@ html[data-theme="dark"] {
     html, html[data-theme="dark"] {
       --link-color: #67BDFC;
       --main-background-color: hsl(0, 0%, 10%);
-      --main-text-color: hsl(0, 0%, 88%);
+      --main-text-color: hsl(0, 0%, 83%);
       --main-title-color: hsl(0, 0%, 93%);
       --main-subtitle-color: hsl(0, 0%, 80%);
       --main-postmeta-color: hsl(0, 0%, 59%);
