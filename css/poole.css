@@ -45,9 +45,9 @@ html, html[data-theme="light"] {
   --link-color: #307cd2;
   --main-background-color: hsl(0, 0%, 100%);
   --main-text-color: hsl(0, 0%, 20%);
-  --main-title-color: #313131;
-  --main-subtitle-color: #6e6e6e;
-  --main-postmeta-color: #717171;
+  --main-title-color: hsl(0, 0%, 20%);
+  --main-subtitle-color: hsl(0, 0%, 55%);
+  --main-postmeta-color: hsl(0, 0%, 40%);
   --main-hr-border-color: #dadada;
   --main-font-weight: 350;
   --main-font-weight-subtitle: 300;
@@ -59,10 +59,10 @@ html, html[data-theme="light"] {
 html[data-theme="dark"] {
   --link-color: #67BDFC;
   --main-background-color: hsl(0, 0%, 10%);
-  --main-text-color: hsl(0, 0%, 85%);
+  --main-text-color: hsl(0, 0%, 88%);
   --main-title-color: hsl(0, 0%, 93%);
-  --main-subtitle-color: #bbbbbb;
-  --main-postmeta-color: #969696;
+  --main-subtitle-color: hsl(0, 0%, 80%);
+  --main-postmeta-color: hsl(0, 0%, 59%);
   --main-hr-border-color: #3e3e3e;
   --main-font-weight: 300;
   --main-font-weight-subtitle: 300;
@@ -76,10 +76,10 @@ html[data-theme="dark"] {
     html, html[data-theme="dark"] {
       --link-color: #67BDFC;
       --main-background-color: hsl(0, 0%, 10%);
-      --main-text-color: hsl(0, 0%, 85%);
+      --main-text-color: hsl(0, 0%, 88%);
       --main-title-color: hsl(0, 0%, 93%);
-      --main-subtitle-color: #bbbbbb;
-      --main-postmeta-color: #969696;
+      --main-subtitle-color: hsl(0, 0%, 80%);
+      --main-postmeta-color: hsl(0, 0%, 59%);
       --main-hr-border-color: #3e3e3e;
       --main-font-weight: 300;
       --main-font-weight-subtitle: 300;
@@ -92,9 +92,9 @@ html[data-theme="dark"] {
       --link-color: #307cd2;
       --main-background-color: hsl(0, 0%, 100%);
       --main-text-color: hsl(0, 0%, 20%);
-      --main-title-color: #313131;
-      --main-subtitle-color: #6e6e6e;
-      --main-postmeta-color: #717171;
+      --main-title-color: hsl(0, 0%, 20%);
+      --main-subtitle-color: hsl(0, 0%, 40%);
+      --main-postmeta-color: hsl(0, 0%, 45%);
       --main-hr-border-color: #dadada;
       --main-font-weight: 350;
       --main-font-weight-subtitle: 300;
