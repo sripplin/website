@@ -9,6 +9,7 @@ _site
 vendor/
 .bundle/
 devnotes.MD
+_devnotes/
 
 # Numerous always-ignore extensions
 *.diff
