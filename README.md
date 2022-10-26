@@ -15,7 +15,7 @@ Other themes I considered were [Chirpy](https://github.com/cotes2020/jekyll-them
 
 I performed a lot of modifications including:
 - changing theme colors, font colors, link colors
-- font families
+- fonts
 - enabled font awesome for icons
 - optimized website for mobile, since this theme is quite old the sizing didn't translate well to mobile.
   - optimized font sizes for web and mobile
