@@ -9,4 +9,4 @@ This site exists for informational purposes only. Absolutely nothing on this sit
 
 While certain information contained herein has been obtained from sources believed to be reliable, its accuracy and completeness cannot be guaranteed. No representation or warranty, express or implied, is made as to, and no reliance should be placed on, the fairness, accuracy, timeliness, or completeness of this information. The author assumes no liability for this information and no obligation to update the information or analysis contained herein in the future.
 
-The content of the blog itself is under the [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) license. Basically, this means you always have to attribute the content/quotes back to me.
+The content of the blog itself is under the [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) license. Basically, this means you always have to attribute quotes back to me.
