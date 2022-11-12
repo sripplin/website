@@ -41,7 +41,7 @@ I performed a lot of modifications including:
 - optimized website for mobile, since this theme is quite old the sizing didn't translate well to mobile.
   - optimized font sizes for web and mobile
   - made images responsive to sizing for web and mobile
-- snippits on home page instead of full posts
+- snippets on home page instead of full posts
 - added featured image to post previews on home page (though toggled off)
 - added button via javascript to scroll [back to top](https://github.com/vfeskov/vanilla-back-to-top) for posts
 - enabled font awesome for icons
