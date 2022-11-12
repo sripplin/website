@@ -37,7 +37,7 @@ Not quite perfect but is pretty close to what I wanted.
 ## Added Features & Modifications
 I performed a lot of modifications including:
 - changing theme colors, font colors, link colors
-- added dark mode. This was the most effort but worth it. Takes OS preference plus a toggle with persistance. [This repo](https://github.com/derekkedziora/) was the biggest help to get started.
+- added dark mode. This was the most effort but worth it. Takes OS preference plus a toggle with persistence. [This repo](https://github.com/derekkedziora/) was the biggest help to get started.
 - optimized website for mobile, since this theme is quite old the sizing didn't translate well to mobile.
   - optimized font sizes for web and mobile
   - made images responsive to sizing for web and mobile
