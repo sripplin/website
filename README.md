@@ -15,11 +15,18 @@ I mostly followed [this guide](https://www.youtube.com/watch?v=UKB9ylw0G4U) to s
 ## Theme & Design
 I decided on [Hyde](https://github.com/poole/hyde) as a nice, two-column theme to start from. It is simple and I can customize and build what I want on top of it.
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+<p align="center">
+    <img width=60% src="https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png">
+</p>
 
 Other themes I considered were [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) and [minimalist](https://github.com/BDHU/minimalist).
 
 The basic Hyde theme was a good place to start, but it needed a lot of modification to get to my desired result.
+
+### Design - End Result:
+<p align="center">
+    <img width=60% src="https://github.com/sripplin/website/blob/main/assets/images/meta/design_screens_collage.png?raw=true">
+</p>
 
 ### Color
 I'm a big fan of blue so went with a nice navy shade. The sidebar looked a little plain so I added a diagonal gradient with a nice effect when dark-mode toggled.
