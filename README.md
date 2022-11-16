@@ -25,7 +25,7 @@ The basic Hyde theme was a good place to start, but it needed a lot of modificat
 
 ### Design - End Result:
 <p align="center">
-    <img width=90% src="https://github.com/sripplin/website/blob/main/assets/images/meta/design_screens_collage.png?raw=true">
+    <img width=90% src="https://github.com/sripplin/website/blob/main/assets/images/meta/design_screens.png?raw=true">
 </p>
 
 ### Color
