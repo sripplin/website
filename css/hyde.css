@@ -312,6 +312,20 @@ a.sidebar-nav-item:focus {
   font-size: 0.85rem;
 }
 
+/* Projects */
+.project-last-updated {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: var(--main-font-weight-subtitle);
+  margin-top: -0.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--main-postmeta-color);
+}
+.project-seperator {
+  border-top: 0.5px solid var(--main-hr-border-color);
+  border-bottom: 0.5px solid var(--main-hr-border-color);
+}
+
 /* Themes */
 
 /* Custom - Blue */

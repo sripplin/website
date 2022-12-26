@@ -4,7 +4,7 @@ title: "BackBlaze's Customer Analytics"
 subtitle: 
 category: customer_analytics
 image_featured: c3_labels.png
-image_root: backblaze_customer_analytics/
+image_root: backblaze-customer-analytics/
 custom_excerpt: Customer cohort charts are becoming more popular. One of the latest is from BackBlaze, a cloud storage company for individuals and enterprises that has 480k customers and generated $53.8M in revenue last year. The company recently filed its S-1 in advance of its upcoming IPO with some interesting customer disclosure.
 postdisclaimer: true
 redirect_from: /posts/backblaze-customer-analytics

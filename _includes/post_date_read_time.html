@@ -1,5 +1,7 @@
 <!-- Snippet to calculate reading time assuming WPM 200 -->
 <span style="display: inline" class="post-date" title="Estimated read time">
+  {%if page.category != "projects"%}
     {{ page.date | date: "%B %-d, %Y" }} &middot;
+  {% endif %} 
   {% assign words = content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
 </span>

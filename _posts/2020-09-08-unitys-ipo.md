@@ -4,7 +4,7 @@ title: "Unity's IPO: What are the customer analytics of a game engine?"
 subtitle: 
 category: customer_analytics
 image_featured: c3_full.png
-image_root: unitys_ipo/
+image_root: unitys-ipo/
 postdisclaimer: true
 redirect_from: /posts/unitys-ipo
 ---
