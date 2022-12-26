@@ -4,7 +4,7 @@ title: The Habit Flywheel
 subtitle: 
 category: life
 image_featured: 6.png
-image_root: habit_flywheel/
+image_root: habit-flywheel/
 custom_excerpt: How forcing mechanisms propel us up the Long Staircase of Habit Forming on route to the Habit Flywheel. By deconstructing how habits work, we can learn to form better habits and dismantle bad ones.
 redirect_from: /posts/the-habit-flywheel
 ---

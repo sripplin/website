@@ -4,7 +4,7 @@ title: Writing More
 subtitle: 
 category: life
 image_featured: writing_cartoon.png
-image_root: writing_more/
+image_root: writing-more/
 custom_excerpt: I've long enjoyed writing, though most of that creative output has been in the form of reports and commentaries during my career as an investor. But I have never really embraced writing and made it a bigger part of my life. I'm attempting to change that now by writing more and - importantly - publishing my work.
 redirect_from: /posts/writing-more
 ---

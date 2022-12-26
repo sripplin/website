@@ -4,7 +4,7 @@ title: "Chewy's IPO: Customer Analytics and Valuation using Probability Models"
 subtitle: 
 category: customer_analytics
 image_featured: pav_cac_cohort.jpg
-image_root: chewys_ipo/
+image_root: chewys-ipo/
 postdisclaimer: true
 custom_excerpt: Chewy, Inc., the pure-play online pet retailer, IPO’d on June 14, 2019 at a $9.3 billion valuation. With its S-1 filing, Chewy provided limited - but just enough - disclosure on its customers to allow for a rich analysis of customer acquisition, retention, and economics. Utilizing probability models and methodology based on Customer-Based Corporate Valuation, this report provides a unique analysis of Chewy’s customer dynamics, economics, and valuation.
 redirect_from: /posts/chewys-ipo

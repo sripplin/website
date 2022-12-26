@@ -41,6 +41,7 @@ layout: default
 </div>
 
 <!-- Related -->
+{%if page.category != "projects"%}
 <div class="related">
   <h2 style="margin-bottom:0.7rem;">Related Posts</h2>
   <ul class="related-posts">
@@ -79,6 +80,7 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% endif %}
 
 <!-- Newsletter -->
 <div class="newsletter">
