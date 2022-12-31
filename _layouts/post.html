@@ -23,8 +23,12 @@ layout: default
       &emsp; 
       <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
           {% capture category_name %}{{ page.category }}{% endcapture %}
-          <a style="color:var(--main-postmeta-color)" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
-      </span>
+          {% if category_name  == "projects" %}
+            <a style="color:var(--main-postmeta-color)" href="{{site.url}}/projects">{{ category_name }}</a>  
+          {% else %}
+            <a style="color:var(--main-postmeta-color)" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
+          {% endif %}
+        </span>
     </div>
     <hr>
   </div>
