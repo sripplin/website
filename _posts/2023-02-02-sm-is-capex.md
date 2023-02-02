@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sales & Marketing is Capex"
-subtitle: Why Customer Acquisition Costs should be capitalized
+subtitle: Why Customer Acquisition Costs Should Be Capitalized
 category: customer_analytics
 image_featured: 
 image_root: sm-is-capex/
@@ -124,7 +124,7 @@ So let’s do that. What would happen if sales and marketing were capex?
 
 I’ll use Hubspot as an example since it has a long history as a public SaaS company. 
 
-To implement CAC-adjusted financial statements, we first take reported S&M, and move it to the balance sheet as an asset - let’s call it “assetCAC”. 
+To implement CAC-adjusted financial statements, we first take reported S&M, and move it to the balance sheet as an asset - let’s call it “assetCAC.”
 
 Then depreciate each cohort’s assetCAC over time according to some schedule that reasonably aligns with customer lifetimes. Let’s keep it simple for Hubspot and use 5-year straight-line, but this could be any method that approximates cohort survival curves while still being practical. Instead of S&M on the income statement, there is now “depreciCAC.”
 
@@ -174,6 +174,6 @@ Treating S&M as capex is a fundamental shift in how investors and managers can v
 
 [^3]: Unfortunately, usually only one-time at IPO and even then often with no y-axis 🙄 or excluding older cohorts.
 
-[^4]: I’m not \*actually\* advocating for GAAP or IFRS rules to change. Better and more standard customer cohort disclosure would be more productive than forcing S&M to be capex at the reporting and tax level. But, for managers and investors, this is a useful framework for analysis and mindset that has numerous benefits.
+[^4]: I’m not \*actually\* advocating for GAAP or IFRS rules to change. Better and more standard customer cohort disclosure would be more productive than forcing S&M to be capex at the reporting and tax level. But, for managers and investors, this is a useful framework for analysis and a mindset that has numerous benefits.
 
 [^5]: Ideally you can delineate S&M that is CAC versus non-CAC (e.g. to retain existing customers), but in practice that is complex to do, and likely impossible for analysis of a public company. Assuming all of S&M is CAC is a valid assumption that works because is balanced out by no S&M expense post-acquisition, as long as it is consistent. Just note this assumption may overstate CAC (as well as PAV on the other side), especially in later years as an increasing portion of a company’s marketing spend becomes attributable to its growing base of existing customers, rather than new customer acquisition.
