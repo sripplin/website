@@ -41,7 +41,7 @@ Webflow has a learning curve, but I enjoyed learning about how modern webpages a
 
 ## The Project
 
-You can see the Github repo for my website with more granular details [here](https://github.com/sripplin/sripplin.github.io).
+You can see the Github repo for my website with more granular details [here](https://github.com/sripplin/website).
 
 I started with a basic structure but did a lot of work on performance, style, and feature additions to get it to where I wanted:
 
