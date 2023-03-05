@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Sales & Marketing is Capex"
+title: Sales & Marketing is Capex
 subtitle: Why Customer Acquisition Costs Should Be Capitalized
 category: customer_analytics
 image_featured: 
 image_root: sm-is-capex/
 custom_excerpt: These customer cohorts then stack on top of each other and are the sources of revenue in any given period. New sales & marketing expenditures are thus an investment in new customers that will generate revenue in the future.
 postdisclaimer: true
-redirect_from: /posts/intensity-delta
 ---
 
 Modern financial statements are artifacts of an era in which traditional businesses needed to keep track of finances. Revenue and expenses; cash in and cash out. While no set accounting standard could capture every business's economic reality even a hundred years ago, the basic properties worked well for most companies.
@@ -27,7 +26,7 @@ Why does this matter? S&M as capex better captures the revenue-generating asset 
 Let’s dive in:
 - [The Current Way](#the-current-way)
 - [Why SaaS Businesses Are Different](#why-saas-businesses-are-different)
-- [What Does This Look Like & Implications](#what-does-this-look-like--implications)
+- [What Does This Look Like \& Implications](#what-does-this-look-like--implications)
   - [CAC-Adjusted Financial Statements](#cac-adjusted-financial-statements)
 - [Conclusions](#conclusions)
 
