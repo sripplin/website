@@ -76,7 +76,7 @@ Thus, the fundamentals of this type of business can be distilled to:
 - How much revenue is generated from the customer before it churns
 - What does it cost to provide the ongoing service
 
-I’m not reinventing anything here specifically about customer acquisition costs (CAC) or customer lifetime value (CLV). In fact, customer economics is exactly what is applicable here. 
+I’m not reinventing anything here specifically about customer acquisition costs (CAC) or customer lifetime value (LTV). In fact, customer economics is exactly what is applicable here. 
 
 But what I am arguing is that this can apply at an even deeper level, where customer economics become *company* economics, right down to the financial statements.
 
@@ -155,13 +155,13 @@ But, to the extent S&M is being spent on new customer acquisition, moving CAC of
 
 Which is an interesting point. **In an assetCAC world, S&M (CACex) is a use of free cash flow**, not an expense that reduces FCF. It is a discretionary investment and a capital allocation decision, as opposed to just being a part of the operating budget. Investing in CACex is a lever on how fast to grow customers, and just like an other capital investment decision, there are economics to consider whether makes sense to do so.
 
-Another benefit to this approach is that the balance sheet better reflects the revenue-generating asset of the business - its customers. AssetCAC isn’t the full economic value since CAC is presumedly less than CLV, but putting all that CAC on the balance sheet as an asset is a step closer to the economic reality of the business. For Hubspot, there would be an additional ~$1B of value on its balance sheet in 2021. 
+Another benefit to this approach is that the balance sheet better reflects the revenue-generating asset of the business - its customers. AssetCAC isn’t the full economic value since CAC is presumedly less than LTV, but putting all that CAC on the balance sheet as an asset is a step closer to the economic reality of the business. For Hubspot, there would be an additional ~$1B of value on its balance sheet in 2021. 
 
 Lastly, for full marks on the interview question, it is worthwhile to note that we should also adjust for taxes on the increased profitability, which I didn’t do in the above charts for simplicity.
 
 ## Conclusions
 
-Ultimately the goal is to better understand and manage SaaS and other customer-centric businesses. While great customer analytics frameworks (CLV, IRR, payback, cohort analysis, etc.) and valuation methodologies (CBCV) exist, there is effectively no link from customer economics to financial statements. S&M as capex bridges this gap, and is a complement to other customer-centric thinking. The nice thing is it can be done as a simple adjustment to currently reported financial statements - just capitalize and depreciate S&M each period over a time horizon that is aligned with customer lifetimes.
+Ultimately the goal is to better understand and manage SaaS and other customer-centric businesses. While great customer analytics frameworks (LTV, IRR, payback, cohort analysis, etc.) and valuation methodologies (CBCV) exist, there is effectively no link from customer economics to financial statements. S&M as capex bridges this gap, and is a complement to other customer-centric thinking. The nice thing is it can be done as a simple adjustment to currently reported financial statements - just capitalize and depreciate S&M each period over a time horizon that is aligned with customer lifetimes.
 
 Treating S&M as capex is a fundamental shift in how investors and managers can view SaaS and other customer-centric businesses. It goes a long way towards reflecting the underlying customer-based fundamentals on the financial statements, allowing for better alignment of revenue and costs, a more accurate measure of profitability, more insightful analysis, and more predictability.
 

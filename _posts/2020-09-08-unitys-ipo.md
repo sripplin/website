@@ -127,7 +127,7 @@ For perspective, 133% net dollar retention is fantastic and puts Unity near the 
 For the rest of the post, we will focus on Unity's >$100,000 customers, as Unity uses this as a cut-off for some of its disclosures, including these two charts:
 
 <center>
-<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}Customers.png"/>
+<img class="img100" src="{{ site.imageurl }}{{ page.image_root }}customers.png"/>
 <img class="img100" src="{{ site.imageurl }}{{ page.image_root }}100k_rev.png"/>
 </center>
 
@@ -170,7 +170,7 @@ Using the above information, we can calculate a payback period with a few additi
 This analysis results in an estimated payback period of 4 years for the 2018 cohort and 3 years for the 2019 cohort:
 
 <center>
-<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}Payback.png"/>
+<img class="img80" src="{{ site.imageurl }}{{ page.image_root }}payback.png"/>
 </center>
 
 It is difficult to qualitatively assess how good this is without an NPV analysis and context around how long customers actually stick around, but this seems to be reasonably healthy given the nature of Unity's business.
