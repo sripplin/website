@@ -68,15 +68,15 @@ This framework means that the foundation of growth is customer analytics. By foc
 
 ### Data Science / Analytics Engineering
 
-Data used to be the domain of IT. It was slow, boring, and inaccessible. In recent years, cloud storage/compute, easy access to ML models, and the Modern Data Stack have changed that. Data is now fast, accessible, and endlessly fascinating.
+Data used to be the domain of IT. It was slow, boring, and inaccessible. In recent years, cloud storage/compute, easy access to ML models, and the "Modern Data Stack" have changed that. Data is now fast, accessible, and endlessly fascinating.
 
-As someone who has always loved working with data to create knowledge and inform decisions, this change in the data ecosystem has been a treasure trove for me. At the analytics/data science layer, I’ve studied and worked in areas including statistical modeling, predictive analytics, and natural language processing. And it has also enabled me to go down the stack into analytics engineering including data ingestion, data warehousing, and data modeling.
+As someone who has always loved working with data to create knowledge and inform decisions, this evolution in the data ecosystem has been a treasure trove for me. At the analytics/data science layer, I’ve studied and worked in areas including statistical modeling, predictive analytics, and natural language processing. And it has also enabled me to go down the stack into analytics engineering including data ingestion, data warehousing, and data modeling.
 
 One of my principal tenants has always been to do the work. Primary research over reading reports. Building my own models instead of relying on others. To me, this is the only way to truly understand and have differentiated and substantiated opinions. Whether it is working in growth or any other domain, being able to manage and understand the underlying data, as well as apply the right analytics and data science techniques, is a powerful source of value.
 
 ### Programming
 
-My go-to programming language is Python for the vast majority of my use cases (data science, analytics, API’s, creating tools, etc.). I also write a lot of SQL and have experience with R, HTML/CSS, and whatever else is needed.
+My go-to programming language is Python for the vast majority of my use cases (data science, analytics, data engineering, prototyping, feature development, etc.). I also write a lot of SQL and have experience with JS/TS, R, HTML/CSS, and am quick to learn whatever else is needed.
 
 Until recently, I’ve never thought of myself as a programmer. But after reflection, coding has been one of my superpowers my entire career.
 
@@ -86,7 +86,7 @@ During my equity research internship, I wrote web scraping scripts for our commo
 
 As an investor, one of my key advantages was in automating a lot of the grunt work such as data ingestion so I could focus on actual analysis and investing. I also designed and built my own real-time portfolio management system and various trading tools that powered my daily workflows.
 
-Currently, as a growth strategist and analytics professional, programming supercharges my value add. I’m not a software engineer by any stretch, but being able to code - and more importantly, to approach and solve problems with a programmer’s mindset - is an invaluable skill that elevates every other domain of interest.
+Currently, as a data scientist and wearer of many hats at an AI startup, programming supercharges my value add. I’m not a software engineer by any stretch, but being able to code - and more importantly, to approach and solve problems with a programmer’s mindset - is an invaluable skill that elevates every other domain of interest.
 
 ### Writing
 
