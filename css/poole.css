@@ -56,6 +56,7 @@ html, html[data-theme="light"] {
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgb(21, 43, 91) 46%, rgba(21,42,89,1) 100%);
   --about-me-background-color: #171c670b;
   --about-me-box-shadow: rgba(174, 174, 174, 0.047);
+  --about-me-br-margin: 1.1em;
 }
 
 html[data-theme="dark"] {
@@ -73,6 +74,7 @@ html[data-theme="dark"] {
   --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
   --about-me-background-color: rgba(10, 26, 59, 0.816);
   --about-me-box-shadow: rgba(255, 255, 255, 0.1);
+  --about-me-br-margin: 1.1em;
 }
 
 
@@ -92,6 +94,7 @@ html[data-theme="dark"] {
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(21,42,89,1) 46%, rgba(0,0,0,1) 100%);
       --about-me-background-color:  rgba(10, 26, 59, 0.816);
       --about-me-box-shadow: rgba(0, 0, 0, 0.1);
+      --about-me-br-margin: 1.5em;
     }
 
     html[data-theme="light"] {
@@ -109,6 +112,7 @@ html[data-theme="dark"] {
       --sidebar-background-gradient: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgb(21, 43, 91) 46%, rgba(21,42,89,1) 100%);
       --about-me-background-color: #171c670b;
       --about-me-box-shadow: rgba(0, 0, 0, 0.277);
+      --about-me-br-margin: 1.5em;
   } }
 
 
@@ -600,5 +604,5 @@ a.pagination-item:hover {
 #about-me p br {
   content: "";
   display: block;
-  margin: 1.1em 0;
+  margin: var(--about-me-br-margin) 0;
 }
