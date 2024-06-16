@@ -19,7 +19,8 @@ I write long-form posts on this website. I also write a newsletter called [Under
 
 ## Contact <!-- omit in toc -->
 
-steve dot lastname @ gmail
+steve dot lastname @ gmail <br>
+Or reach out on [LinkedIn]([https://www.linkedin.com/in/steve-ripplinger/]).
 
 ## Interests <!-- omit in toc -->
 
