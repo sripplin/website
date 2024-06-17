@@ -5,7 +5,7 @@ title: About
 
 Hi. Welcome to my website.
 
-​My interests include technology, startups, investing, finance, strategy, data science, and customer analytics.
+​My interests include technology, startups, investing, finance, strategy, product, data science, and customer analytics.
 
 I write long-form posts on this website. I also write a newsletter called [Under the Curve](https://steveripplinger.substack.com/).
 
@@ -15,12 +15,12 @@ I write long-form posts on this website. I also write a newsletter called [Under
 - Director, Growth & Data Scientist at an AI startup
 - Former portfolio manager at a $1B investment firm
 - CFA; Wharton MBA
-- Career also includes strategy at Samsung's future factory, product at a hyperloop startup, data science consulting for the world's largest media advertising company, and growth/analytics consulting for an e-commerce startup.
+- Career also includes strategy at Samsung Techonology and Advanced Research, product at a hyperloop startup, data science consulting for the world's largest media advertising company, and growth/analytics consulting for an e-commerce startup.
 
 ## Contact <!-- omit in toc -->
 
 steve dot lastname @ gmail <br>
-Or reach out on [LinkedIn]([https://www.linkedin.com/in/steve-ripplinger/]).
+Or reach out on [LinkedIn](https://www.linkedin.com/in/steve-ripplinger/).
 
 ## Interests <!-- omit in toc -->
 
