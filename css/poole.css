@@ -586,31 +586,22 @@ a.pagination-item:hover {
   }
 @media (max-width: 600px) {
   #about-me {
-    padding: 20px 20px 5px 20px;
+    padding: 15px 20px 5px 20px;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: -20px;
     }
 }
 
 #about-me h2 {
   margin-top: 0;
+  margin-bottom: 15px;
   border-bottom: 1px solid;
   padding-bottom: 10px;
 }
 
 #about-me p {
-  padding-top: 10px;
-  line-height: 1.6;
+  margin-bottom: 0.9em;
+  line-height: 1.35;
   font-size: 1em;
-}
-
-#about-me p br {
-  content: "";
-  display: block;
-  margin: 1.1em 0;
-}
-@media (max-width: 600px) {
-  #about-me p br {
-    margin-bottom: 10px;
-  }
 }
