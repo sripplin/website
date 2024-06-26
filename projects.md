@@ -3,10 +3,11 @@ layout: page
 title: Projects
 ---
 
-These are some of my recent-ish projects - some of which are ongoing. I wish I documented some of my earlier ones, but alas.
+These are some of my recent-ish projects. I wish I documented some of my earlier ones, but alas. For other examples of my work and how I think, check out some of my writings.
 
 - [This Website](#this-website)
 - [Customer Based Corporate Valuation](#customer-based-corporate-valuation)
+- [Modeling Adoption of Product Launch](#modeling-adoption-of-product-launch)
 
 <hr class="project-seperator">
 
@@ -33,3 +34,10 @@ I was especially intrigued by idea of *Customer Based Corporate Valuation (CBCV)
 
 <hr class="project-seperator">
 
+## Modeling Adoption of Product Launch
+<p class="project-last-updated"><i>Last Updated: 2019-07-10</i></p>
+My final project for MKTG 776: Applied Probability Models in Marketing, in which students were tasked with modeling the cumulative adoption curve of a video game after its launch. The only data given was a simple table with weekly adoption numbers. This paper assumes a technical audience, but demonstrates the predictive power of probability models and the incredible insight that can be generated from data.
+
+- Paper: [Link](/projects/adoption-modeling)
+
+<hr class="project-seperator">
