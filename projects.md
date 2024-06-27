@@ -7,7 +7,7 @@ These are some of my recent-ish projects. I wish I documented some of my earlier
 
 - [This Website](#this-website)
 - [Customer Based Corporate Valuation](#customer-based-corporate-valuation)
-- [Modeling Adoption of Product Launch](#modeling-adoption-of-product-launch)
+- [Modeling the Cumulative Adoption Curve of a Product Launch](#modeling-the-cumulative-adoption-curve-of-a-product-launch)
 
 <hr class="project-seperator">
 
@@ -34,7 +34,7 @@ I was especially intrigued by idea of *Customer Based Corporate Valuation (CBCV)
 
 <hr class="project-seperator">
 
-## Modeling Adoption of Product Launch
+## Modeling the Cumulative Adoption Curve of a Product Launch
 <p class="project-last-updated"><i>Last Updated: 2019-07-10</i></p>
 My final project for MKTG 776: Applied Probability Models in Marketing, in which students were tasked with modeling the cumulative adoption curve of a video game after its launch. The only data given was a simple table with weekly adoption numbers. This paper assumes a technical audience, but demonstrates the predictive power of probability models and the incredible insight that can be generated from data.
 
