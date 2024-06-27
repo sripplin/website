@@ -14,6 +14,8 @@ custom_excerpt:
     <i>Last Updated: 2019-07-10</i>
 </div>
 
+<a href="{{ site.imageurl }}{{ page.image_root }}adoption_model_776_sripplinger.pdf">Download PDF</a>.
+
 <center>
-  <embed src="{{ site.imageurl }}{{ page.image_root }}modeling_cumulative_adoption_curve__776_sripplinger.pdf" width="100%" height="600px" type="application/pdf">
+  <iframe src="{{ site.imageurl }}{{ page.image_root }}adoption_model_776_sripplinger.pdf" width="100%" height="600px" style="border:none;"></iframe>
 </center>
