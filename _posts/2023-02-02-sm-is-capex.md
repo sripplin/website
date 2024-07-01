@@ -26,7 +26,7 @@ Why does this matter? S&M as capex better captures the revenue-generating asset 
 Let’s dive in:
 - [The Current Way](#the-current-way)
 - [Why SaaS Businesses Are Different](#why-saas-businesses-are-different)
-- [What Does This Look Like \& Implications](#what-does-this-look-like--implications)
+- [What Does This Look Like and Implications](#what-does-this-look-like-and-implications)
   - [CAC-Adjusted Financial Statements](#cac-adjusted-financial-statements)
 - [Conclusions](#conclusions)
 
@@ -113,7 +113,7 @@ Based on the dynamics of SaaS business models discussed above and these definiti
 
 *Note: I’m using S&M and CAC a bit interchangeably throughout, but to be clear, not all sales & marketing costs should be considered CAC and capitalized[^4] - just those expenditures that can be reasonably attributed to new customer acquisition.*
 
-## What Does This Look Like & Implications
+## What Does This Look Like and Implications
 
 Sounds like an investment banking interview question (”walk me through how $10 of depreciation flows through the financial statements…”).
 
