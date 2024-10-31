@@ -17,7 +17,7 @@ If you’re reading this, there is a good chance you subscribed from that origin
 The 2019 analysis made several novel contributions at the time to understanding Chewy and its future including:
 
 - **Projecting meaningful, but decelerating growth in active customers with a peak around 20M** (at the time Chewy had only 11.3M).
-- Charting its retention curves and blended churn rates, showing **first year retention of ~60%**.
+- Analyzing its retention curves and blended churn rates, showing **first year retention of ~60%**.
 - Calculating a **$65 CAC, $300 PAV, 4 year payback, and 36% IRR** for customers acquired in 2018, and how these measures had evolved over time.
 - Deriving **a customer-based valuation of $3.7B**, 74% lower than its market cap at the time.
 - Quantifying the effect on valuation and sensitivity analysis for factors such as margins, CAC, and retention.
@@ -64,7 +64,7 @@ Chewy was a “covid darling”, with its stock price quadrupling from $30 pre-c
 
 The advantage of building this type of model is that it provides a baseline to measure the impact of changes to a business, such covid’s impact on e-commerce. The model’s projections assumed that the basic assumptions and processes of customer behavior would continue. In that sense, the projections were a probabilistic view of Chewy’s future based on what could be observed at the time.
 
-Therefore, any divergences of actual results from the model can be interpreted as changes business drivers or shifts in customer behavior. Again, this is in stark contrast to typical financial models where differences between actuals and forecasts are primarily because the analyst’s estimates of growth rates were incorrect[^3].
+Therefore, any divergences of actual results from the model can be interpreted as changes in business drivers or shifts in customer behavior. Again, this is in stark contrast to typical financial models where differences between actuals and forecasts are primarily because the analyst’s estimates of growth rates were incorrect[^3].
 
 Since 16.1M active customers were already projected for 2020 using statistical models fit on data from ‘normal’ times, we can thus quantify that **the first-year impact of covid on Chewy was an *additional* 3.1M new customers in 2020.**
 
