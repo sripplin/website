@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unity's IPO: What are the customer analytics of a game engine?"
+title: "Unity's IPO: What are the Customer Analytics of a Game Engine?"
 subtitle: 
 category: customer_analytics
 image_featured: c3_full.png
