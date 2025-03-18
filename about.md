@@ -12,10 +12,15 @@ I write long-form posts on this website. I also write a newsletter called [Under
 ## ​Ten Second Bio <!-- omit in toc -->
 
 - Bay Area, California
-- Director, Growth & Data Scientist at an AI startup
-- Former portfolio manager at a $1B investment firm
 - CFA; Wharton MBA
-- Career also includes strategy at Samsung Techonology and Advanced Research, product at a hyperloop startup, data science consulting for the world's largest media advertising company, and growth/analytics consulting for an e-commerce startup.
+- Currently working on something new
+- Prior:
+  - Director, Growth & Data Scientist at an AI startup
+  - Strategy at Samsung's Techonology and Advanced Research Lab
+  - Product and commercialiation at a hyperloop startup
+  - Data science consulting for the world's largest media advertising company
+  - Growth/analytics for an e-commerce startup
+  - Analyst -> Portfolio manager at a $1B investment firm
 
 ## Contact <!-- omit in toc -->
 
