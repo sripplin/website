@@ -13,9 +13,9 @@ I write long-form posts on this website. I also write a newsletter called [Under
 
 - Bay Area, California
 - CFA; Wharton MBA
-- Currently working on something new
+- Founder of a new startup - currently in stealth
 - Prior:
-  - Director, Growth & Data Scientist at an AI startup
+  - Director, Growth (Finance & Analytics) & Data Scientist at an AI startup
   - Strategy at Samsung's Techonology and Advanced Research Lab
   - Product and commercialiation at a hyperloop startup
   - Data science consulting for the world's largest media advertising company
@@ -38,11 +38,11 @@ Or reach out on [LinkedIn](https://www.linkedin.com/in/steve-ripplinger/).
 
 ### Investing / Business
 
-Investing is a beautiful collision of strategy, psychology, finance, math, and business, among other things. It requires lifelong learning, patience, self-awareness, insatiable curiosity, and ambition.
+Investing is a beautiful collision of strategy, psychology, finance, statistics, and business, among other things. It requires lifelong learning, patience, self-awareness, insatiable curiosity, and ambition.
 
 It has been my primary lens to view the world, and myself, since I was a teenager. I am a purest at heart, and was driven by the art of investing for a long time. It led me to study finance, and is why I spent nearly a decade at an investment firm honing the craft.
 
-If I had to break investing into two parts it would be: 1) the art and science of investing - the confluence of finance, math, psychology, risk, law, and other elements; and 2) the study of businesses - strategy, competitive dynamics, execution, management, M&A, and all the nitty gritty elements that go into creating and growing a successful company. To be a great investor, I believe you have to excel at both.
+If I had to break investing into two parts it would be: 1) the art and science of investing - the confluence of finance, statistics, psychology, risk, law, and other elements; and 2) the study of businesses - strategy, competitive dynamics, execution, management, M&A, and all the nitty gritty elements that go into creating and growing a successful company. To be a great investor, I believe you have to excel at both.
 
 While I still think about and refine my ideas on investing (much of my writing continues to be about clarifying this thinking), I am spending this next phase of my career on the business side, learning and growing by doing, rather than observing from an investor’s 500 ft view.
 
@@ -92,7 +92,7 @@ During my equity research internship, I wrote web scraping scripts for our commo
 
 As an investor, one of my key advantages was in automating a lot of the grunt work such as data ingestion so I could focus on actual analysis and investing. I also designed and built my own real-time portfolio management system and various trading tools that powered my daily workflows.
 
-Currently, as a data scientist and wearer of many hats at an AI startup, programming supercharges my value add. I’m not a software engineer by any stretch, but being able to code - and more importantly, to approach and solve problems with a programmer’s mindset - is an invaluable skill that elevates every other domain of interest.
+Being able to code - and more importantly, to approach and solve problems with a programmer’s mindset - is an invaluable skill that elevates every other domain of interest.
 
 ### Writing
 
