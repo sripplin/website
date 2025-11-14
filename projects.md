@@ -5,11 +5,22 @@ title: Projects
 
 These are some of my recent-ish projects. I wish I documented some of my earlier ones, but alas. For other examples of my work and how I think, check out some of my writings.
 
+- [CohortCharts.com](#cohortchartscom)
 - [This Website](#this-website)
 - [Customer Based Corporate Valuation](#customer-based-corporate-valuation)
 
 <hr class="project-seperator">
 
+## CohortCharts.com
+<p class="project-last-updated"><i>Last Updated: 2025-11-10</i></p>
+
+[CohortCharts.com](http://CohortCharts.com) is a completely free website with the largest collection of publicly available customer cohort charts.
+
+- Website: [CohortCharts.com](http://CohortCharts.com)
+- Project writeup: [Here](/projects/cohort-charts)
+- Original post with analysis: [Here](https://steveripplinger.com/2025/11/10/cohort-charts/)
+
+<hr class="project-seperator">
 
 ## This Website
 <p class="project-last-updated"><i>Last Updated: 2022-11-15</i></p>
