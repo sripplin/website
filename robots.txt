@@ -1,0 +1,75 @@
+User-agent: *
+Allow: /
+
+# Block SEO/scraper bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: *
+Disallow: /wotbox
+Disallow: /spexify
+Disallow: /teoma
+Disallow: /vigoos
+Disallow: /lookallweb
+Disallow: /zanran
+Disallow: /egerin
+Disallow: /roozzy
+Disallow: /isearch
+Disallow: /sysoon
+Disallow: /geona
+Disallow: /tineye
+Disallow: /soku
+Disallow: /vatrouver
+Disallow: /similarsitesearch
+
+# Allow legitimate AI and services
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
