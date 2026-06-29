@@ -107,8 +107,8 @@ html {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0.3rem;
-  font-family: "Playfair+Display", serif;
-  font-weight: 600;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 800;
   line-height: 1.25;
   font-size: 1.9rem;
 }
@@ -121,12 +121,26 @@ html {
   display: block;
   line-height: 1.7;
 }
+a.sidebar-nav-item {
+  transition: opacity .2s ease;
+}
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
+  opacity: 0.85;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+/* Sidebar icons lift slightly on hover */
+@media (prefers-reduced-motion: no-preference) {
+  .sidebar a i {
+    transition: transform .2s ease;
+  }
+  .sidebar a:hover i {
+    transform: translateY(-1px);
+  }
 }
 
 /* Sticky sidebar
@@ -149,6 +163,22 @@ a.sidebar-nav-item:focus {
   letter-spacing: 1px;
   font-size: 0.9rem;
   margin-bottom: 0rem;
+}
+/* The clickable theme toggle: real hit area + tactile feedback */
+#theme-toggle {
+  display: inline-block;
+  min-height: 40px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  line-height: 28px;
+  user-select: none;
+  transition: opacity .2s ease, transform .1s ease;
+}
+#theme-toggle:hover {
+  opacity: 0.8;
+}
+#theme-toggle:active {
+  transform: scale(0.96);
 }
 @media (min-width: 48em) {
   .sidebar-dark-mode {
@@ -346,8 +376,20 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .content a {
   text-decoration: none;
   color: var(--link-color);
-  border-bottom: 2px;
-  border-bottom-color: var(--link-color);
+  background-image: linear-gradient(var(--link-color), var(--link-color));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1.5px;
+  transition: background-size .25s cubic-bezier(0.2, 0, 0, 1);
+}
+.theme-base-blue .content a:hover,
+.theme-base-blue .content a:focus-visible {
+  background-size: 100% 1.5px;
+  text-decoration: none;
+}
+/* Don't underline links that wrap images */
+.theme-base-blue .content a:has(img) {
+  background-image: none;
 }
 .theme-base-blue .content p,
 .theme-base-blue .excerpt {
@@ -361,4 +403,23 @@ a.sidebar-nav-item:focus {
 .post-meta a, .post-subtitle a {
   font-weight: var(--main-font-weight-subtitle);
   text-decoration: none !important;
+}
+
+/* Body copy: avoid orphans / lone words on the last line */
+.post-content, .page-content, .excerpt {
+  text-wrap: pretty;
+}
+
+/* Back-to-top button: lift on hover, press on click
+ * (overrides the inline style injected by vanilla-back-to-top by source order) */
+@media (prefers-reduced-motion: no-preference) {
+  #back-to-top {
+    transition: bottom .2s, opacity .2s, transform .2s ease;
+  }
+  #back-to-top:hover {
+    transform: translateY(-2px);
+  }
+  #back-to-top:active {
+    transform: scale(0.96);
+  }
 }

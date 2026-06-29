@@ -54,3 +54,16 @@ if (theme === "dark") {
 	sessionStorage.setItem('theme', 'light');
 	document.getElementById("theme-toggle").innerHTML = lighticon;
 }
+
+// Keyboard support for the toggle (Enter / Space), pairing with role="button"
+(function () {
+	var toggle = document.getElementById("theme-toggle");
+	if (toggle) {
+		toggle.addEventListener("keydown", function (e) {
+			if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+				e.preventDefault();
+				modeSwitcher();
+			}
+		});
+	}
+})();

@@ -63,3 +63,29 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+/*
+ * Dark-mode token overrides
+ *
+ * The palette above is tuned for a light code surface. In dark mode the code
+ * background is dark navy, so the darkest tokens (operators, keywords, strings,
+ * variable/heading greens) become unreadable. Lift just those. Two blocks cover
+ * the explicit toggle (`data-theme="dark"`) and the system-preference default.
+ */
+html[data-theme="dark"] .highlight :is(.k, .kc, .kd, .kn, .kp, .kr, .gp) { color: #6cb6ff; }
+html[data-theme="dark"] .highlight :is(.kt, .nb, .bp) { color: #8fd6c4; }
+html[data-theme="dark"] .highlight :is(.s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .sx, .si, .ne) { color: #e2887f; }
+html[data-theme="dark"] .highlight :is(.no, .nv, .vc, .vg, .vi) { color: #b6cda0; }
+html[data-theme="dark"] .highlight :is(.gh, .gu) { color: #9fd0a0; }
+html[data-theme="dark"] .highlight :is(.o, .ow) { color: #c7c7c7; }
+html[data-theme="dark"] .highlight .nt { color: #7fb0d6; }
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .highlight :is(.k, .kc, .kd, .kn, .kp, .kr, .gp) { color: #6cb6ff; }
+  html:not([data-theme="light"]) .highlight :is(.kt, .nb, .bp) { color: #8fd6c4; }
+  html:not([data-theme="light"]) .highlight :is(.s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .sx, .si, .ne) { color: #e2887f; }
+  html:not([data-theme="light"]) .highlight :is(.no, .nv, .vc, .vg, .vi) { color: #b6cda0; }
+  html:not([data-theme="light"]) .highlight :is(.gh, .gu) { color: #9fd0a0; }
+  html:not([data-theme="light"]) .highlight :is(.o, .ow) { color: #c7c7c7; }
+  html:not([data-theme="light"]) .highlight .nt { color: #7fb0d6; }
+}
