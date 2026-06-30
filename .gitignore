@@ -10,6 +10,7 @@ vendor/
 .bundle/
 devnotes.MD
 _devnotes/
+_design_docs/
 
 # Numerous always-ignore extensions
 *.diff
@@ -48,3 +49,9 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# Chrome DevTools workspace file (local dev only — silences the WEBrick 404 spam)
+.well-known/
+
+# AI
+CLAUDE.md

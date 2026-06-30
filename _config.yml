@@ -38,3 +38,7 @@ social:
 # Structure
 paginate:         20
 incl_image_featured:  false
+
+# Serve the Chrome DevTools workspace file in local dev (dotfiles are excluded by
+# default). The .well-known/ folder is gitignored, so nothing ships to production.
+include:          ['.well-known']
