@@ -46,14 +46,16 @@
 .nav a { color: var(--muted); border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color .15s; }
 .nav a:hover { color: var(--head); }
 .nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
-.nav a i { font-size: .62em; vertical-align: middle; margin-left: 2px; opacity: .8; }
+.nav a .ext-icon { width: 14px; height: 14px; vertical-align: middle; margin-left: 6px; opacity: .75; }
 .theme-toggle {
   display: inline-flex; align-items: center; justify-content: center;
-  padding: 4px; font-size: 16px; line-height: 1;
+  padding: 4px; line-height: 1;
+  position: relative; top: -3px;
   color: var(--muted); background: transparent; border: 0;
   cursor: pointer;
   transition: color .15s, transform .1s ease;
 }
+.theme-toggle .theme-icon { display: block; width: 18px; height: 18px; }
 .theme-toggle:hover { color: var(--head); }
 .theme-toggle:active { transform: scale(0.9); }
 
