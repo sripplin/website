@@ -1,0 +1,16 @@
+<header class="site-head">
+  <div>
+    <div class="brand-kicker mono">{{ site.tagline }}</div>
+    <a class="brand" href="{{ site.url }}">{{ site.title }}</a>
+  </div>
+  <div class="nav-wrap">
+    <nav class="nav">
+      <a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.url }}">Home</a>
+      <a class="{% if page.url contains 'archive' %}active{% endif %}" href="{{ site.url }}/archive">Archive</a>
+      <a class="{% if page.url contains 'projects' or page.category == 'projects' %}active{% endif %}" href="{{ site.url }}/projects">Projects</a>
+      <a class="{% if page.url contains 'about' %}active{% endif %}" href="{{ site.url }}/about">About</a>
+      <a href="https://steveripplinger.substack.com" target="_blank" rel="noopener">Newsletter <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" onclick="modeSwitcher()" type="button" aria-label="Toggle dark mode"></button>
+  </div>
+</header>

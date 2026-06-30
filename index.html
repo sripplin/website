@@ -3,89 +3,53 @@ layout: default
 title: Home
 ---
 
-<!-- About Me Section -->
-<section id="about-me">
-  <h2>&#128075; About Me</h2>
-  <p>I am a data scientist and former investor based in the Bay Area.</p>
-  <p>I work in AI/tech leveraging my background in data & analytics, product & strategy, and investing & finance.</p>
-  <p>I love understanding consumer behavior through data, building products that delight, and helping companies grow.</p>
-  <p> More about me <a href={{ site.url }}/about>here</a>.</p>
+<section class="hero">
+  <div>
+    <div class="kicker">&#128075; About me</div>
+    <h1>A data scientist &amp; former investor, writing about the customers behind the numbers.</h1>
+  </div>
+  <div class="hero-aside">
+    <p>I am a data scientist and former investor based in the Bay Area. I work in AI &amp; tech, leveraging my background in data &amp; analytics, product &amp; strategy, and investing &amp; finance.</p>
+    <p>I love understanding consumer behavior through data, building products that delight, and helping companies grow. <a href="{{ site.url }}/about">More about me &rarr;</a></p>
+  </div>
 </section>
 
-<hr>
-<br>
-<div class="posts">
-  <h2 class="post-title"><center>Writings</center></h2>
-  <br>
-
+<div class="section-title">Writings</div>
+<div class="post-list">
   {% for post in paginator.posts %}
-  <div class="post">
-
-    <!-- Image -->
-    {%if site.incl_image_featured == true%}
-      {%- if post.image_featured -%}
-        <img src="{{ site.imageurl }}{{ post.image_root }}{{ post.image_featured }}" alt="" class="featured-image-post">
-      {%else%}
-        {%assign postImage = 'defaultimage.png'%}
-        <img src="{{ site.imageurl }}{{ postImage }}" alt="" class="featured-image-post">
-      {%- endif -%}
-    {%- endif -%}
-    
-    <!-- Title -->
-    <h2 class="post-title">
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    
-    <!-- Subtitle -->
-    {%- if post.subtitle -%}
-      <div>
-        <span class="post-subtitle" title="Subtitle">
-          {{post.subtitle}}
-        </span>
-      </div>
-    {%- endif -%}
-
-    <!-- Metadata -->
-    <div class="post-meta">
-      <p>
-      <span style="display: inline" class="post-date" title="Estimated read time">
-          {{ post.date | date: "%B %-d, %Y"}} &middot; 
-           {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
-       </span>
-       &emsp;
-       <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
-           {% capture category_name %}{{ post.category }}{% endcapture %}
-           <a style="color:var(--main-postmeta-color)" href="{{ site.url }}/category/{{ category_name }}">{{ category_name}}</a>
-      </span>
-      </p>
+  <a class="post" href="{{ site.url }}{{ post.url }}">
+    <div class="post-meta mono">
+      {{ post.date | date: "%b %-d %Y" | upcase }}<br>
+      {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min<br>
+      <span class="cat">{{ post.category }}</span>
     </div>
-      
-  
-  <!-- excerpt -->
-  <p class='excerpt'>
-  {%- if post.custom_excerpt -%}
-    {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
-  {%- else -%}
-    {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
-  {%- endif -%}
-  </p>
-</div>
+    <div>
+      <div class="post-title">{{ post.title }}</div>
+      <div class="post-dek">
+        {%- if post.custom_excerpt -%}
+          {{ post.custom_excerpt | strip_html | strip }}
+        {%- else -%}
+          {{ post.excerpt | strip_html | strip }}
+        {%- endif -%}
+      </div>
+    </div>
+  </a>
   {% endfor %}
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.siteurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.url }}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.url }}">&larr; Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.url }}/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.url }}/page{{ paginator.previous_page }}">&larr; Newer</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">&larr; Newer</span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.url }}/page{{ paginator.next_page }}">Older &rarr;</a>
+  {% else %}
+    <span class="pagination-item older">Older &rarr;</span>
   {% endif %}
 </div>

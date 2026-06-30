@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-
-<html lang="en-us" class="fa-events-icons-ready">
+<html lang="en-us">
 
   {% include head.html %}
 
   <body class="theme-base-blue">
 
-    {% include sidebar.html %}
+    <div class="wrap page">
+      {% include header.html %}
 
-    <div class="content container">
-      {{ content }}
+      <main class="content">
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
     </div>
 
   </body>
   <script src="{{site.url}}/scripts/mode-switcher.js"></script>
-  </html>
-
+</html>

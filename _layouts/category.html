@@ -2,47 +2,30 @@
 layout: default
 ---
 
-<h1 class="post-title-top" align="center">{{ page.title }}</h1>
-<hr style="margin-bottom: 2.5rem">
-<div class="posts">
+<div class="page-head">
+  <div class="kicker">Category</div>
+  <h1 class="page-title">{{ page.title }}</h1>
+  <p class="lede">{{ site.categories[page.category].size }} post{% if site.categories[page.category].size != 1 %}s{% endif %}.</p>
+</div>
+
+<div class="post-list">
   {% for post in site.categories[page.category] %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    
-    {%- if post.subtitle -%}
-      <div>
-        <span class="post-subtitle" title="Subtitle">
-          {{post.subtitle}}
-        </span>
-      </div>
-    {%- endif -%}
-
-    <!-- Metadata -->
-    <div class="post-meta">
-      <p>
-      <span style="display: inline" class="post-date" title="Estimated read time">
-          {{ post.date | date: "%B %-d, %Y" }} &middot; 
-           {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min read
-       </span>
-       &emsp;
-       <span style="display:inline" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
-           {% capture category_name %}{{ post.category }}{% endcapture %}
-           <a style="color:var(--main-postmeta-color)" href="{{ site.url }}/category/{{ category_name }}">{{ category_name}}</a>
-      </span>
-      </p>
+  <a class="post" href="{{ site.url }}{{ post.url }}">
+    <div class="post-meta mono">
+      {{ post.date | date: "%b %-d %Y" | upcase }}<br>
+      {% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }} min<br>
+      <span class="cat">{{ post.category }}</span>
     </div>
-
-    <!-- excerpt -->
-    <p class='excerpt'>
-      {%- if post.custom_excerpt -%}
-        {{ post.custom_excerpt| newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }} 
-      {%- else -%}
-        {{ post.excerpt | newline_to_br | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | append: "  <a href='" | append: site.url | append: post.url | append: "'>Read more...</a>"| append: "<br /> " }}
-      {%- endif -%}
-    </p>
-
-  </div>
+    <div>
+      <div class="post-title">{{ post.title }}</div>
+      <div class="post-dek">
+        {%- if post.custom_excerpt -%}
+          {{ post.custom_excerpt | strip_html | strip }}
+        {%- else -%}
+          {{ post.excerpt | strip_html | strip }}
+        {%- endif -%}
+      </div>
+    </div>
+  </a>
   {% endfor %}
 </div>

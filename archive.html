@@ -1,0 +1,31 @@
+---
+layout: default
+title: Post Archive
+redirect_from: /all-posts
+---
+
+<div class="page-head">
+  <div class="kicker">Post Archive</div>
+  <h1 class="page-title">Everything I've written</h1>
+  <p class="lede">Years of essays on customers, data, products, and investing.</p>
+</div>
+
+<div class="archive-grid">
+  <aside>
+    <div class="cat-head">Categories</div>
+    {% for category in site.categories %}
+    <a class="cat-item" href="{{ site.url }}/category/{{ category[0] }}">{{ category[0] }} <span>{{ category[1].size }}</span></a>
+    {% endfor %}
+  </aside>
+
+  <div>
+    {% assign byYear = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+    {% for yr in byYear %}
+    <div class="year-row"><div class="yr">{{ yr.name }}</div><div class="line"></div></div>
+    {% for post in yr.items %}
+    <a class="arch-post" href="{{ site.url }}{{ post.url }}"><div class="date mono">{{ post.date | date: "%m.%d" }}</div><div><div class="ap-title">{{ post.title }}</div><div class="ap-dek">{% if post.subtitle %}{{ post.subtitle }}{% elsif post.custom_excerpt %}{{ post.custom_excerpt | strip_html | truncate: 90 }}{% endif %}</div></div><div class="read mono">{% assign words = post.content | strip_html | number_of_words %}{{ words | divided_by:200 | at_most:25 }}m</div></a>
+    {% endfor %}
+    <div class="year-gap"></div>
+    {% endfor %}
+  </div>
+</div>

@@ -2,104 +2,88 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="post-top">
-    
-    <!-- Title -->
-    <h1 class="post-title-top">{{ page.title }}</h1>
-    <!-- Subtitle -->
-    {%- if page.subtitle -%}
-      <div>
-        <span class="post-subtitle" title="Subtitle">
-          {{page.subtitle}}
-        </span>
-      </div>
-    {%- endif -%}
-    
-    <!-- Metadata -->
-    <div class="post-meta">
-      <p style="margin:.6em;"></p>
-      {% include post_date_read_time.html %}
-      &emsp; 
-      <span style="display:inline; white-space: nowrap;" class="category"><i class="fa-regular fa-folder-open" style="color:var(--main-postmeta-color); opacity: 0.80"></i>
-          {% capture category_name %}{{ page.category }}{% endcapture %}
-          {% if category_name  == "projects" %}
-            <a style="color:var(--main-postmeta-color)" href="{{site.url}}/projects">{{ category_name }}</a>  
-          {% else %}
-            <a style="color:var(--main-postmeta-color)" href="{{site.url}}/category/{{ category_name }}">{{ category_name }}</a>
-          {% endif %}
-        </span>
-    </div>
-    <hr>
+<article class="article">
+
+  <!-- Kicker (category) -->
+  <div class="kicker">
+    {% capture category_name %}{{ page.category }}{% endcapture %}
+    {% if category_name == "projects" %}
+      <a href="{{ site.url }}/projects">{{ category_name }}</a>
+    {% else %}
+      <a href="{{ site.url }}/category/{{ category_name }}">{{ category_name }}</a>
+    {% endif %}
   </div>
-  
+
+  <!-- Title -->
+  <h1>{{ page.title }}</h1>
+
+  <!-- Subtitle -->
+  {%- if page.subtitle -%}
+    <p class="sub">{{ page.subtitle }}</p>
+  {%- endif -%}
+
+  <!-- Byline: date (suppressed for projects) + read time -->
+  <div class="byline mono">{% include post_date_read_time.html %}</div>
+
   <!-- Content -->
-  <span class="post-content">
+  <div class="article-body">
     {{ content }}
-    {%if page.postdisclaimer == true%}
-      <div>
-        {% include postdisclaimer.html %}
-      </div>
-    {%endif%}
-  </span>
-</div>
+    {% if page.postdisclaimer == true %}
+      {% include postdisclaimer.html %}
+    {% endif %}
+  </div>
+
+</article>
 
 <!-- Related -->
-{%if page.category != "projects"%}
-<div class="related">
-  <h2 style="margin-bottom:0.7rem;">Related Posts</h2>
-  <ul class="related-posts">
-    {% assign nSameTag = site.categories[page.category].size | minus: 1 %}
-    {% assign nRelated = 3 | minus: nSameTag %}
+{% if page.category != "projects" %}
+<section class="related">
+  <div class="kicker">Related</div>
+  <div class="related-list">
     {% for post in site.categories[page.category] limit:4 %}
-        {% unless post.url == page.url %}
-            <li style="margin-bottom: 0.7rem;line-height: 120%;">
-              <h4 style="display: inline">
-                <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
-              </h4>
-              <span style="display: inline; font-size: 0.9rem;" class="post-subtitle-related">
-                {%- if post.subtitle and post.category == "musings" -%}
-                  &raquo; <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
-                {%- endif -%}
-              </span>
-                <span style="display: inline; color:var(--main-text-color);" class="post-date"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</span>
-            </li>
-        {% endunless %}
-    {% endfor %}
-    
-    {% for post in site.related_posts limit:3%}
-      {% if post.category != page.category %}
-        <li style="margin-bottom: 0.7rem;line-height: 120%;">
-          <h4 style="display: inline">
-            <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
-          </h4>
-          <span style="display: inline; font-size: 0.9rem;" class="post-subtitle-related">
+      {% unless post.url == page.url %}
+        <a class="rel-item" href="{{ site.url }}{{ post.url }}">
+          <span>
+            <span class="rel-title">{{ post.title }}</span>
             {%- if post.subtitle and post.category == "musings" -%}
-              &raquo; <a style="color:var(--main-text-color);" href="{{site.url}}{{post.url}}">{{ post.subtitle }}</a>
+              <span class="rel-sub"> — {{ post.subtitle }}</span>
             {%- endif -%}
           </span>
-            <span style="display: inline; color:var(--main-text-color);" class="post-date"> &raquo; {{ post.date | date: "%Y-%m-%d" }}</span>
-        </li>
+          <span class="rel-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </a>
+      {% endunless %}
+    {% endfor %}
+
+    {% for post in site.related_posts limit:3 %}
+      {% if post.category != page.category %}
+        <a class="rel-item" href="{{ site.url }}{{ post.url }}">
+          <span>
+            <span class="rel-title">{{ post.title }}</span>
+            {%- if post.subtitle and post.category == "musings" -%}
+              <span class="rel-sub"> — {{ post.subtitle }}</span>
+            {%- endif -%}
+          </span>
+          <span class="rel-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </a>
       {% endif %}
     {% endfor %}
-  </ul>
-</div>
+  </div>
+</section>
 {% endif %}
 
 <!-- Newsletter -->
-<div class="newsletter">
+<section class="newsletter">
+  <div class="kicker">Newsletter</div>
   <h2>Subscribe</h2>
   <p>To receive my latest writings via email, subscribe to my Substack newsletter.</p>
-  <center>
-  <iframe src="https://steveripplinger.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-  </center>
-</div>
+  <iframe src="https://steveripplinger.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe>
+</section>
 
 <!-- Back to Top -->
 <script src="{{site.url}}/scripts/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
   diameter: 40,
-  backgroundColor: '#152a59',
+  backgroundColor: '#7b2f2c',
   textColor: '#fff',
   showWhenScrollTopIs: 2000, // px
 })</script>
