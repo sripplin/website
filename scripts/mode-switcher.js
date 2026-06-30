@@ -1,8 +1,8 @@
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
 
-let lighticon = "Light"
-let darkicon = "Dark"
+let lighticon = '<i class="fa-regular fa-sun" aria-hidden="true"></i>'
+let darkicon = '<i class="fa-solid fa-moon" aria-hidden="true"></i>'
 
 if (systemInitiatedDark.matches) {
 	document.getElementById("theme-toggle").innerHTML = darkicon;

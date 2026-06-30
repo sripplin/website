@@ -13,7 +13,7 @@ I write long-form posts on this website. I also write a newsletter called [Under
 
 - Bay Area, California
 - CFA; Wharton MBA
-- Founder of a new startup - currently in stealth
+- Currently working on something new. TBA.
 - Prior:
   - Director, Growth (Finance & Analytics) & Data Scientist at an AI startup
   - Strategy at Samsung's Techonology and Advanced Research Lab
@@ -44,7 +44,7 @@ It has been my primary lens to view the world, and myself, since I was a teenage
 
 If I had to break investing into two parts it would be: 1) the art and science of investing - the confluence of finance, statistics, psychology, risk, law, and other elements; and 2) the study of businesses - strategy, competitive dynamics, execution, management, M&A, and all the nitty gritty elements that go into creating and growing a successful company. To be a great investor, I believe you have to excel at both.
 
-While I still think about and refine my ideas on investing (much of my writing continues to be about clarifying this thinking), I am spending this next phase of my career on the business side, learning and growing by doing, rather than observing from an investor’s 500 ft view.
+While I still think about and refine my ideas on investing (much of my writing continues to be about clarifying this thinking), I have been spending this next phase of my career on the operating side, learning and growing by doing, rather than observing from an investor’s 500 ft view.
 
 ### Technology / Startups
 
